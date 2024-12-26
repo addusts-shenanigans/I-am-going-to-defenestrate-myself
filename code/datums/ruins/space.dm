@@ -466,3 +466,9 @@
 	suffix = "infested_frigate.dmm"
 	name = "SYN-C Brutus"
 	description = "This wasn't an outbreak, this was a repelled attack."
+
+/datum/map_template/ruin/space/forgotten_dreadnought
+	id = "syndicate_dreadnought"
+	suffix = "syndicate_dreadnought.dmm"
+	name = "Gorlex Marauders Dreadnought 'Defiant'"
+	description = "An old Syndicate dreadnought thought lost to time. While it's seen much better days, its crew remain in stasis, waiting for the perfect time to rebuild their flagship."

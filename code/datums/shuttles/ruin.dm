@@ -26,3 +26,8 @@
 	suffix = "syndicate_fighter_shiv"
 	name = "Syndicate Fighter"
 	description = "A small Syndicate vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Syndicate mob in the pilot's seat, and extremely cramped."
+
+/datum/map_template/shuttle/ruin/syndicate_dreadnought
+	suffix = "syndicate_dreadnought"
+	name = "Stricken Syndicate Dreadnought"
+	description = "The 'Defiant' was a Gorlex Marauders dreadnought up until its supposed sinking in the early 2530s. Unfortunately for Nanotrasen's exploration crews, the vessel has never been found - until now. Has ghostrole spawners onboard."
