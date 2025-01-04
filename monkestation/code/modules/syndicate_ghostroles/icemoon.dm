@@ -168,7 +168,6 @@
 		4. Do NOT involve yourself in the affairs of others outside of your base or harm other sentient beings under any circumstances."
 
 	unique_name = FALSE // disables the (123) number suffix
-	initial_language_holder = /datum/language_holder/universal
 	default_storage = null
 	flavortext = \
 	"\n<big><span class='warning'>LAW EXPLANATION FOR SYNDICATE BAR DRONES</span></big>\n"+\
