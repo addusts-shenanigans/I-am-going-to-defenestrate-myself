@@ -31,7 +31,7 @@
 	layer = BELOW_OPEN_DOOR_LAYER
 
 //Current stations
-// Crater Station: Mapping started 12/10/2024, commissioned 12/10/2564
+// Crater Station: Mapping started 12/10/2024, commissioned [date of merge here]
 /obj/structure/plaque/static_plaque/golden/commission/crater
 	desc = "Spinward Sector Outpost SO-13\n'Crater' Sheltered Colony\nCommissioned 12/10/2564\n'Warmest in the Frost'"
 
