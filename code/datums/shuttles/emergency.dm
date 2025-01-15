@@ -223,6 +223,13 @@
 	description = "A train but in space, choo choo!"
 	occupancy_limit = "35"
 
+/datum/map_template/shuttle/emergency/crater
+	suffix = "crater"
+	name = "Crater Outpost Emergency Shuttle"
+	credit_cost = CARGO_CRATE_VALUE * 4
+	description = "A weather-proofed, lightly armoured shuttle designed to transport personnel out of planetary outposts on the Icemoon."
+	occupancy_limit = "35"
+
 /datum/map_template/shuttle/emergency/scrapheap
 	suffix = "scrapheap"
 	name = "Standby Evacuation Vessel \"Scrapheap Challenge\""
