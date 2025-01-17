@@ -1866,9 +1866,9 @@
 /turf/open/floor/engine/hull/reinforced/planetary/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "gj" = (
-/obj/effect/turf_decal/trimline/dark_blue/line,
-/obj/machinery/light/red/dim/directional/north,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/stairs/left{
+	dir = 8
+	},
 /area/station/hallway/secondary/entry)
 "gk" = (
 /obj/structure/railing{
@@ -2309,8 +2309,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "hE" = (
-/turf/open/misc/grass/jungle,
-/area/station/hallway/primary/fore)
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/light,
+/area/station/hallway/secondary/entry)
 "hF" = (
 /obj/effect/spawner/random/vending/colavend,
 /obj/machinery/light/small/directional/north,
@@ -2445,6 +2446,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/engineering/engine_smes)
+"hY" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "hZ" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/closed/mineral/random/snow,
@@ -2870,7 +2877,7 @@
 /area/station/maintenance/department/medical)
 "jp" = (
 /obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plating,
+/turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "jq" = (
 /obj/effect/turf_decal/siding/wood{
@@ -3323,7 +3330,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "kO" = (
-/turf/open/floor/iron/stairs/left{
+/turf/open/floor/iron/stairs/right{
 	dir = 4
 	},
 /area/station/hallway/secondary/entry)
@@ -3430,7 +3437,7 @@
 /area/station/hallway/secondary/entry)
 "lf" = (
 /turf/open/floor/iron/stairs/left{
-	dir = 8
+	dir = 4
 	},
 /area/station/hallway/secondary/entry)
 "lg" = (
@@ -4347,6 +4354,12 @@
 /obj/structure/fence/door,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry/tram)
+"nS" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "nU" = (
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -4399,8 +4412,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "of" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/pod/light,
+/obj/effect/turf_decal/trimline/dark_blue/line,
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/hallway/secondary/entry)
 "og" = (
 /turf/open/misc/dirt/icemoon,
@@ -5699,6 +5713,12 @@
 /obj/structure/railing,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry/outpost)
+"sn" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Front Desk"
+	},
+/turf/open/floor/pod/light,
+/area/station/hallway/secondary/entry)
 "so" = (
 /obj/structure/lattice/catwalk,
 /obj/item/wallframe/light_fixture/small,
@@ -8690,11 +8710,6 @@
 "Bj" = (
 /turf/open/floor/engine,
 /area/station/hallway/secondary/entry/tram)
-"Bk" = (
-/turf/open/floor/iron/stairs/right{
-	dir = 4
-	},
-/area/station/hallway/secondary/entry)
 "Bm" = (
 /obj/effect/turf_decal/siding/white/corner,
 /obj/item/storage/box/gloves{
@@ -11597,6 +11612,13 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/commons/lounge/public_house)
+"JT" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "JU" = (
 /obj/structure/sign/poster/contraband/syndicate_recruitment/directional/east,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -11683,6 +11705,13 @@
 "Ki" = (
 /turf/closed/wall/r_wall,
 /area/station/engineering/storage/tech)
+"Kj" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock{
+	name = "Unisex Restrooms"
+	},
+/turf/open/floor/iron,
+/area/station/commons/toilet/restrooms)
 "Kk" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -12007,13 +12036,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/engine,
 /area/station/hallway/secondary/entry/tram)
-"Lo" = (
-/obj/machinery/modular_computer/preset/civilian{
-	dir = 1
-	},
-/obj/structure/sign/flag/nanotrasen/directional/south,
-/turf/open/floor/pod/light,
-/area/station/hallway/secondary/entry)
 "Lp" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -14747,6 +14769,13 @@
 "TN" = (
 /turf/closed/wall,
 /area/station/medical/treatment_center)
+"TO" = (
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 1
+	},
+/obj/structure/sign/flag/nanotrasen/directional/south,
+/turf/open/floor/pod/light,
+/area/station/hallway/secondary/entry)
 "TP" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
@@ -14923,12 +14952,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
-"Ut" = (
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 10
-	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "Uu" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -16194,12 +16217,6 @@
 /obj/effect/landmark/start/paramedic,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
-"Yk" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Front Desk"
-	},
-/turf/open/floor/pod/light,
-/area/station/hallway/secondary/entry)
 "Yl" = (
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet/cyan,
@@ -16623,12 +16640,6 @@
 	},
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
-"Zz" = (
-/obj/effect/turf_decal/trimline/dark_blue/filled/line{
-	dir = 6
-	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "ZA" = (
 /turf/closed/wall,
 /area/station/service/bar)
@@ -43607,7 +43618,7 @@ Ps
 Qi
 oD
 dO
-lf
+gj
 ez
 dO
 dO
@@ -43883,9 +43894,9 @@ Wv
 WJ
 uz
 Be
-Zz
-of
-of
+hY
+hE
+hE
 Km
 Fa
 uz
@@ -44140,10 +44151,10 @@ Wv
 uS
 uz
 WZ
-of
-of
+hE
+hE
 Je
-Yk
+sn
 Fa
 uz
 uz
@@ -44394,10 +44405,10 @@ fG
 HK
 jH
 Wv
-gj
+of
 uz
 WZ
-of
+hE
 Je
 Je
 Km
@@ -44654,11 +44665,11 @@ HX
 uq
 uz
 WZ
-of
+hE
 Je
-Lo
+TO
 Km
-Fa
+JT
 uz
 uz
 Oh
@@ -44908,10 +44919,10 @@ Cl
 lI
 Au
 Wv
-gj
+of
 uz
 WZ
-of
+hE
 Je
 Je
 Km
@@ -45168,10 +45179,10 @@ Wv
 Vb
 uz
 WZ
-of
-of
+hE
+hE
 Je
-Yk
+sn
 Fa
 uz
 uz
@@ -45425,9 +45436,9 @@ Wv
 wE
 uz
 IK
-Ut
-of
-of
+nS
+hE
+hE
 Km
 Fa
 uz
@@ -45663,8 +45674,8 @@ Pv
 yL
 qq
 Fz
-Bk
 kO
+lf
 Fz
 Fz
 Fz
@@ -45690,7 +45701,7 @@ Iq
 uz
 XH
 iR
-hE
+yZ
 CK
 fl
 fl
@@ -48264,7 +48275,7 @@ qv
 CK
 fl
 fl
-NE
+Kj
 RL
 Ku
 Ku
@@ -48524,7 +48535,7 @@ fl
 NY
 NY
 NY
-NE
+Kj
 NY
 NY
 NY
