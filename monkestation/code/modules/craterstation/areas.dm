@@ -46,3 +46,6 @@
 
 /area/station/maintenance/department/engine/abandoned_generator
 	name = "Decommissioned Generator"
+
+/area/station/maintenance/arrivals_outpost
+	name = "Arrivals Outpost Maintenance"
