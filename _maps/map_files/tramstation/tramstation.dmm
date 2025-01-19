@@ -12574,9 +12574,8 @@
 /turf/open/misc/asteroid,
 /area/station/security/prison/workout)
 "cRO" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/yellow,
-/turf/open/space/basic,
+/obj/machinery/computer/shipbreaker,
+/turf/open/floor/iron,
 /area/station/engineering/shipbreaker_hut)
 "cRT" = (
 /obj/machinery/camera{
@@ -18004,7 +18003,9 @@
 /turf/open/floor/iron,
 /area/station/security/prison/safe)
 "eBC" = (
-/turf/open/floor/plating/airless,
+/obj/machinery/door/airlock/engineering,
+/obj/structure/fans/tiny,
+/turf/open/floor/iron,
 /area/station/engineering/shipbreaker_hut)
 "eBF" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
@@ -20542,19 +20543,15 @@
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "ftt" = (
-/obj/structure/table/glass,
 /obj/item/radio/intercom/directional/north,
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
-	},
-/obj/effect/spawner/random/food_or_drink/seed{
-	spawn_all_loot = 1;
-	spawn_random_offset = 1
 	},
 /obj/machinery/light_switch/directional/north{
 	pixel_x = 11;
 	pixel_y = 22
 	},
+/obj/machinery/composters,
 /turf/open/floor/iron,
 /area/station/service/hydroponics/garden)
 "ftv" = (
@@ -23338,10 +23335,13 @@
 /turf/open/floor/wood/large,
 /area/station/service/barber)
 "gpu" = (
-/obj/structure/grille,
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
+/obj/machinery/conveyor{
+	dir = 10;
+	id = "shitbreaker"
+	},
+/obj/structure/window/spawner/directional/south,
+/turf/open/floor/plating/airless,
+/area/station/engineering/shipbreaker_hut)
 "gpH" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/structure/cable,
@@ -29109,8 +29109,6 @@
 /area/station/medical/chemistry)
 "iiI" = (
 /obj/machinery/door/airlock/engineering,
-/obj/structure/cable,
-/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/station/engineering/shipbreaker_hut)
 "iiM" = (
@@ -29126,10 +29124,30 @@
 /area/station/security/processing)
 "ijf" = (
 /obj/machinery/seed_extractor,
-/obj/machinery/firealarm/directional/north,
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
 	},
+/obj/effect/spawner/random/food_or_drink/seed{
+	spawn_all_loot = 1;
+	spawn_random_offset = 1
+	},
+/obj/effect/spawner/random/food_or_drink/seed{
+	spawn_all_loot = 1;
+	spawn_random_offset = 1
+	},
+/obj/effect/spawner/random/food_or_drink/seed{
+	spawn_all_loot = 1;
+	spawn_random_offset = 1
+	},
+/obj/effect/spawner/random/food_or_drink/seed{
+	spawn_all_loot = 1;
+	spawn_random_offset = 1
+	},
+/obj/effect/spawner/random/food_or_drink/seed{
+	spawn_all_loot = 1;
+	spawn_random_offset = 1
+	},
+/obj/machinery/vending/hydronutrients/wall/directional/north,
 /turf/open/floor/iron,
 /area/station/service/hydroponics/garden)
 "ijj" = (
@@ -29955,7 +29973,12 @@
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/central/greater)
 "iwp" = (
-/obj/structure/cable,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "shitbreaker"
+	},
+/obj/structure/window/spawner/directional/south,
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/plating/airless,
 /area/station/engineering/shipbreaker_hut)
 "iws" = (
@@ -30586,6 +30609,7 @@
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
 	},
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/station/service/hydroponics/garden)
 "iHD" = (
@@ -39890,9 +39914,8 @@
 /turf/closed/wall/r_wall,
 /area/station/science/ordnance/storage)
 "lwR" = (
-/obj/structure/marker_beacon/yellow,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/obj/structure/closet/secure_closet/shipbreaker,
+/turf/open/floor/iron,
 /area/station/engineering/shipbreaker_hut)
 "lwV" = (
 /obj/machinery/camera/emp_proof{
@@ -40392,10 +40415,10 @@
 /turf/open/floor/iron/smooth,
 /area/station/hallway/primary/tram/center)
 "lGd" = (
+/obj/machinery/door/airlock/engineering,
+/obj/structure/fans/tiny,
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/effect/mapping_helpers/apc/full_charge,
-/turf/open/floor/plating/airless,
+/turf/open/floor/iron,
 /area/station/engineering/shipbreaker_hut)
 "lGu" = (
 /obj/structure/lattice/catwalk,
@@ -40510,9 +40533,11 @@
 /turf/open/floor/iron/white,
 /area/station/science/lower)
 "lIF" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable,
-/turf/open/space/basic,
+/obj/machinery/light/directional/east,
+/obj/machinery/conveyor_switch/oneway{
+	id = "shitbreaker"
+	},
+/turf/open/floor/iron,
 /area/station/engineering/shipbreaker_hut)
 "lIK" = (
 /obj/structure/railing{
@@ -44925,8 +44950,11 @@
 /turf/closed/wall,
 /area/station/maintenance/department/cargo)
 "nfw" = (
-/obj/machinery/computer/shipbreaker,
-/turf/open/floor/plating/airless,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/full_charge,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/iron,
 /area/station/engineering/shipbreaker_hut)
 "nfB" = (
 /obj/structure/table,
@@ -50483,6 +50511,11 @@
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/station/security/office)
+"oUR" = (
+/obj/structure/cable,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron,
+/area/station/engineering/shipbreaker_hut)
 "oUY" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
@@ -54552,6 +54585,7 @@
 /obj/machinery/camera/directional/north{
 	c_tag = "Civilian - Public Garden"
 	},
+/obj/machinery/vending/hydroseeds/wall/directional/north,
 /turf/open/floor/iron,
 /area/station/service/hydroponics/garden)
 "qgG" = (
@@ -71617,6 +71651,14 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/department/crew_quarters/dorms)
+"vsu" = (
+/obj/machinery/conveyor{
+	dir = 6;
+	id = "shitbreaker"
+	},
+/obj/structure/window/spawner/directional/north,
+/turf/open/floor/plating/airless,
+/area/station/engineering/shipbreaker_hut)
 "vsI" = (
 /obj/effect/landmark/event_spawn,
 /obj/structure/cable,
@@ -74216,7 +74258,9 @@
 /turf/open/floor/iron,
 /area/station/maintenance/tram/right)
 "wiy" = (
-/obj/machinery/shipbreaker,
+/obj/machinery/conveyor{
+	id = "shitbreaker"
+	},
 /turf/open/floor/plating/airless,
 /area/station/engineering/shipbreaker_hut)
 "wiI" = (
@@ -75959,8 +76003,12 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmospherics_engine)
 "wJF" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "shitbreaker"
+	},
+/obj/structure/window/spawner/directional/south,
+/turf/open/floor/plating/airless,
 /area/station/engineering/shipbreaker_hut)
 "wJM" = (
 /obj/structure/lattice/catwalk,
@@ -79082,9 +79130,12 @@
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "xQJ" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/light/directional/east,
-/turf/open/space/basic,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "shitbreaker"
+	},
+/obj/machinery/shipbreaker,
+/turf/open/floor/plating/airless,
 /area/station/engineering/shipbreaker_hut)
 "xQK" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -106172,13 +106223,13 @@ vXM
 vXM
 vXM
 vXM
-gpu
-gpu
-gpu
-gpu
-gpu
-gpu
-gpu
+fYW
+fYW
+fYW
+fYW
+fYW
+fYW
+fYW
 vXM
 vXM
 vXM
@@ -106430,12 +106481,12 @@ vXM
 vXM
 vXM
 vXM
-kfT
+pHM
 vXM
 vXM
-kfT
+pHM
 vXM
-gpu
+fYW
 vXM
 vXM
 vXM
@@ -106687,15 +106738,15 @@ vXM
 vXM
 vXM
 vXM
-kfT
+pHM
 vXM
 vXM
-kfT
+pHM
 vXM
 vXM
 vXM
 vXM
-gpu
+vXM
 vXM
 vXM
 vXM
@@ -106944,15 +106995,15 @@ vXM
 vXM
 vXM
 vXM
-kfT
+pHM
 vXM
 vXM
-kfT
+pHM
 vXM
 vXM
-kfT
-kfT
-gpu
+vXM
+vXM
+fYW
 vXM
 vXM
 vXM
@@ -107198,18 +107249,18 @@ vXM
 vXM
 vXM
 vXM
+kRh
+qMU
+qMU
+qMU
+kRh
 vXM
-vXM
-vXM
-kfT
-vXM
-vXM
-kfT
-vXM
-vXM
-kfT
-vXM
-gpu
+pHM
+pHM
+pHM
+pHM
+pHM
+fYW
 vXM
 vXM
 vXM
@@ -107453,20 +107504,20 @@ vXM
 vXM
 vXM
 vXM
+kRh
+kRh
+kRh
+lwR
+lwR
+lwR
+kRh
+kRh
+kRh
+kRh
+kRh
 vXM
 vXM
-vXM
-vXM
-vXM
-kfT
-vXM
-vXM
-kfT
-vXM
-vXM
-kfT
-vXM
-gpu
+fYW
 vXM
 vXM
 vXM
@@ -107708,22 +107759,22 @@ vXM
 vXM
 vXM
 vXM
+iKD
+qvG
+lGd
+hAy
+oUR
+rvS
+rvS
+rvS
+uay
+rvS
+rvS
+rvS
+kRh
 vXM
 vXM
-vXM
-vXM
-vXM
-vXM
-vXM
-cRO
-lIF
-lIF
-lIF
-lIF
-wJF
-lwR
-vXM
-gpu
+fYW
 vXM
 vXM
 vXM
@@ -107966,21 +108017,21 @@ vXM
 vXM
 vXM
 sJc
-iKD
-vXM
-vXM
-vXM
-vXM
-wJF
-lIF
-lIF
+qvG
+kRh
+rvS
+hAy
+rvS
+rvS
+rvS
+rvS
 kRh
 kRh
 iiI
 kRh
 kRh
 vXM
-gpu
+fYW
 vXM
 vXM
 vXM
@@ -108224,20 +108275,20 @@ qvG
 qvG
 qvG
 qvG
+auw
+cRO
+hAy
+iwp
 lIF
-lIF
-lIF
-lIF
-lIF
-lIF
-eBC
+rvS
+rvS
 uze
 uay
-hAy
+rvS
 dPR
 qMU
 vXM
-gpu
+fYW
 vXM
 vXM
 vXM
@@ -108483,18 +108534,18 @@ vXM
 vXM
 auw
 nfw
-iwp
+hAy
 xQJ
+auw
 wJF
-wJF
-eBC
+rvS
 uze
 meJ
 rvS
 bMx
 uze
-kfT
-gpu
+aeL
+fYW
 vXM
 vXM
 vXM
@@ -108739,19 +108790,19 @@ vXM
 vXM
 vXM
 auw
-lGd
-iwp
-auw
+rvS
+rvS
+vsu
 wiy
-auw
-eBC
+gpu
+rvS
 kRh
 dhm
 rvS
 rvk
 kRh
-vXM
-gpu
+pHM
+fYW
 vXM
 vXM
 vXM
@@ -108996,19 +109047,19 @@ vXM
 vXM
 vXM
 auw
+kRh
 eBC
-eBC
-auw
-auw
-auw
-eBC
+qMU
+qMU
+qMU
+kRh
 kRh
 kRh
 qMU
 uze
 kRh
 vXM
-vXM
+fYW
 vXM
 vXM
 vXM
