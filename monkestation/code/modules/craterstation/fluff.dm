@@ -60,3 +60,19 @@
 
 /turf/open/misc/dirt/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
+// terminals and other whatnot
+
+/obj/machinery/computer/terminal/craterstation
+	name = "control terminal"
+	desc = "A terminal used to monitor certain pieces of equipment."
+	tguitheme = "nanotrasen"
+	content = list("No connection.")
+	upperinfo = "Property of Nanotrasen."
+
+/obj/machinery/computer/terminal/craterstation/ptl_reflector
+	name = "PTL reflector control terminal"
+	desc = "A terminal used to control the power transmission laser's reflector. Needs to be unlocked by Central Command; and that isn't happening while you're down here."
+	tguitheme = "nanotrasen"
+	content = list("<center><b>PTL CONTROL SYSTEM</b></center> <BR> Control systems are locked. Please contact Central Command if alteration is required. <BR> <BR> Laser reflector tracking relay node Eta-8, holding 33 degrees L/R and 29 degrees F/B offset.")
+	upperinfo = "LASER REFLECTOR MK. 8 REMOTE CONTROL UNIT - RESTRICTED ACCESS"
