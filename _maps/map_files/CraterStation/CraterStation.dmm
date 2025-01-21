@@ -300,11 +300,6 @@
 /obj/structure/railing,
 /turf/open/floor/iron,
 /area/station/security/office)
-"be" = (
-/obj/machinery/destructive_scanner,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/smooth_large,
-/area/station/science/lobby)
 "bf" = (
 /obj/item/toy/plush/lizard_plushie/green{
 	name = "Tends-the-Wounds";
@@ -350,6 +345,12 @@
 /obj/structure/window/spawner/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
+"bm" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/smooth_corner{
+	dir = 8
+	},
+/area/station/science/lobby)
 "bn" = (
 /obj/structure/window/fulltile/colony_fabricator,
 /obj/effect/mapping_helpers/damaged_window,
@@ -602,14 +603,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
-"bU" = (
-/obj/machinery/door/window/right/directional/north{
-	req_access = list("science");
-	name = "Science Desk"
-	},
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/iron/smooth_large,
-/area/station/science/lobby)
 "bV" = (
 /obj/effect/landmark/observer_start,
 /turf/open/openspace/icemoon/keep_below,
@@ -631,12 +624,6 @@
 /obj/structure/cable/layer1,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
-"bZ" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/iron/smooth_corner{
-	dir = 8
-	},
-/area/station/science/lobby)
 "ca" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -771,9 +758,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "cw" = (
-/turf/open/floor/iron/smooth_corner{
-	dir = 1
-	},
+/turf/closed/wall/r_wall,
 /area/station/science/lobby)
 "cx" = (
 /obj/structure/railing{
@@ -1663,7 +1648,9 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "fn" = (
-/turf/open/floor/iron/smooth_half,
+/obj/machinery/vending/assist,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/smooth_large,
 /area/station/science/lobby)
 "fo" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2385,6 +2372,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/maintenance/department/crew_quarters/bar/cellar)
+"ht" = (
+/obj/machinery/destructive_scanner,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/smooth_large,
+/area/station/science/lobby)
 "hu" = (
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/cmo)
@@ -3045,13 +3037,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/colony/white,
 /area/station/maintenance/abandoned_camp/tent)
-"jn" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/light/cold/directional/west,
-/turf/open/floor/iron/smooth_half{
-	dir = 1
-	},
-/area/station/science/lobby)
 "jo" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
@@ -3923,7 +3908,9 @@
 /obj/structure/bed,
 /obj/effect/landmark/start/blueshield,
 /obj/item/bedsheet/centcom,
-/obj/structure/sign/calendar/directional/east,
+/obj/structure/sign/calendar/directional/east{
+	desc = "It's an old-school wall calendar. Sure, it might be obsolete with modern technology, but it's still hard to imagine an office without one. An old note on it says something about this showing 'what day it is' but you can't read any more."
+	},
 /turf/open/floor/carpet/cyan,
 /area/station/command/heads_quarters/blueshield)
 "lR" = (
@@ -4601,11 +4588,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
-"nT" = (
-/turf/open/floor/iron/smooth_corner{
-	dir = 4
-	},
-/area/station/science/lobby)
 "nU" = (
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -5065,12 +5047,6 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
-"pz" = (
-/obj/machinery/door/airlock/research{
-	name = "Science Office"
-	},
-/turf/open/floor/iron/smooth_large,
-/area/station/science/lobby)
 "pA" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/reagent_dispensers/beerkeg,
@@ -5243,6 +5219,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"pY" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/science/lobby)
 "pZ" = (
 /turf/open/misc/dirt/icemoon,
 /area/station/maintenance/abandoned_camp/hothouse)
@@ -5627,9 +5610,9 @@
 /turf/open/floor/wood/large,
 /area/station/command/heads_quarters/nt_rep)
 "re" = (
-/obj/machinery/vending/assist,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/smooth_corner{
+	dir = 1
+	},
 /area/station/science/lobby)
 "rf" = (
 /obj/structure/flora/bush/grassy/style_random,
@@ -7454,11 +7437,6 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/station/command/corporate_showroom)
-"wo" = (
-/obj/machinery/vending/modularpc,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/smooth_large,
-/area/station/science/lobby)
 "wp" = (
 /obj/effect/spawner/random/structure/closet_private,
 /obj/effect/turf_decal/siding/wood,
@@ -7472,12 +7450,17 @@
 /turf/open/floor/iron/icemoon,
 /area/station/cargo/warehouse/upper)
 "wr" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/iron/smooth_corner,
+/obj/machinery/door/airlock/research{
+	name = "Science Office"
+	},
+/turf/open/floor/iron/smooth_large,
 /area/station/science/lobby)
 "ws" = (
 /turf/closed/wall/prefab_plastic,
 /area/station/maintenance/abandoned_camp/medical)
+"wt" = (
+/turf/open/floor/iron/smooth_half,
+/area/station/science/lobby)
 "wu" = (
 /obj/structure/stairs/wood,
 /obj/structure/railing/wood{
@@ -7634,9 +7617,6 @@
 /obj/machinery/light/small/warm/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
-"wS" = (
-/turf/closed/wall/r_wall,
-/area/station/science/lobby)
 "wT" = (
 /obj/effect/turf_decal/bot,
 /obj/item/reagent_containers/pill/maintenance,
@@ -8400,12 +8380,6 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/station/command/heads_quarters/blueshield)
-"zm" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/iron/smooth_half{
-	dir = 1
-	},
-/area/station/science/lobby)
 "zn" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
@@ -9099,6 +9073,14 @@
 "Bj" = (
 /turf/open/floor/engine,
 /area/station/hallway/secondary/entry/tram)
+"Bk" = (
+/obj/machinery/door/window/right/directional/north{
+	req_access = list("science");
+	name = "Science Desk"
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/smooth_large,
+/area/station/science/lobby)
 "Bl" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/dark_green/corner{
@@ -9571,14 +9553,6 @@
 "CI" = (
 /turf/closed/wall/r_wall,
 /area/station/command/bridge)
-"CJ" = (
-/obj/machinery/door/window/left/directional/north{
-	req_access = list("science");
-	name = "Science Desk"
-	},
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/iron/smooth_large,
-/area/station/science/lobby)
 "CK" = (
 /turf/closed/wall,
 /area/station/hallway/primary/fore)
@@ -9943,6 +9917,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
+"DP" = (
+/obj/machinery/door/window/left/directional/north{
+	req_access = list("science");
+	name = "Science Desk"
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/smooth_large,
+/area/station/science/lobby)
 "DQ" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 1
@@ -10528,9 +10510,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry/outpost)
-"Fx" = (
-/turf/open/floor/iron/smooth_corner,
-/area/station/science/lobby)
 "Fy" = (
 /obj/effect/spawner/random/structure/closet_private,
 /obj/effect/turf_decal/siding/wood,
@@ -11732,6 +11711,11 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"IZ" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 8
+	},
+/area/station/science/lobby)
 "Ja" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -12218,6 +12202,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/commons/toilet/restrooms)
+"Kv" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/smooth_corner,
+/area/station/science/lobby)
 "Kw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /obj/machinery/meter,
@@ -12246,6 +12234,11 @@
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating,
 /area/station/engineering/power_station)
+"KB" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 4
+	},
+/area/station/science/lobby)
 "KC" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -12321,6 +12314,9 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/brig/entrance)
+"KM" = (
+/turf/open/floor/iron/smooth_corner,
+/area/station/science/lobby)
 "KN" = (
 /obj/machinery/siren/weather{
 	dir = 8
@@ -12497,6 +12493,11 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/engine,
 /area/station/hallway/secondary/entry/tram)
+"Lo" = (
+/obj/machinery/vending/modularpc,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/smooth_large,
+/area/station/science/lobby)
 "Lp" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -13099,6 +13100,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/supermatter/room)
+"Nj" = (
+/obj/machinery/slime_extract_requestor,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/smooth_large,
+/area/station/science/lobby)
 "Nk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -13808,11 +13814,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/security/prison)
-"Pq" = (
-/turf/open/floor/iron/smooth_corner{
-	dir = 8
-	},
-/area/station/science/lobby)
 "Pr" = (
 /obj/structure/stairs/wood,
 /obj/structure/cable,
@@ -14942,6 +14943,9 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"Sz" = (
+/turf/open/floor/iron/smooth_large,
+/area/station/science/lobby)
 "SA" = (
 /obj/structure/rack/shelf,
 /obj/item/clothing/mask/gas{
@@ -15108,11 +15112,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/station/service/kitchen)
-"SX" = (
-/obj/machinery/slime_extract_requestor,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/smooth_large,
-/area/station/science/lobby)
 "SY" = (
 /obj/machinery/computer/cargo/request{
 	dir = 4
@@ -15340,7 +15339,11 @@
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "TH" = (
-/turf/open/floor/iron/smooth_large,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
 /area/station/science/lobby)
 "TI" = (
 /obj/machinery/power/stirling_generator{
@@ -15437,6 +15440,12 @@
 "TX" = (
 /turf/closed/wall,
 /area/station/command/heads_quarters/nt_rep)
+"TY" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/science/lobby)
 "TZ" = (
 /turf/closed/wall/r_wall,
 /area/station/command/heads_quarters/cmo)
@@ -15655,13 +15664,6 @@
 "UE" = (
 /turf/open/floor/iron,
 /area/station/commons/dorms/bunkhouse/floor2)
-"UF" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/iron/smooth_half{
-	dir = 1
-	},
-/area/station/science/lobby)
 "UG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -102396,7 +102398,7 @@ AD
 AD
 AD
 AD
-wS
+cw
 Ua
 Ua
 Ua
@@ -102653,12 +102655,12 @@ AD
 AD
 AD
 AD
-wS
-wr
-zm
-jn
-nT
-re
+cw
+Kv
+TY
+TH
+KB
+fn
 Ua
 AD
 AD
@@ -102910,12 +102912,12 @@ AD
 AD
 AD
 AD
-pz
-fn
-TH
-TH
-Pq
-nT
+wr
+wt
+Sz
+Sz
+IZ
+KB
 Ua
 Ua
 Ua
@@ -103167,12 +103169,12 @@ AD
 AD
 AD
 AD
-wS
-fn
-TH
-TH
-SX
-TH
+cw
+wt
+Sz
+Sz
+Nj
+Sz
 Ua
 gc
 Ua
@@ -103424,12 +103426,12 @@ AD
 AD
 AD
 AD
-CJ
-fn
-TH
-TH
-TH
-TH
+DP
+wt
+Sz
+Sz
+Sz
+Sz
 wm
 Fb
 lT
@@ -103681,12 +103683,12 @@ AD
 AD
 AD
 AD
-bU
-fn
-TH
-TH
+Bk
+wt
+Sz
+Sz
 ND
-TH
+Sz
 kD
 hZ
 dw
@@ -103938,12 +103940,12 @@ AD
 AD
 AD
 AD
-wS
-fn
-TH
-TH
-be
-TH
+cw
+wt
+Sz
+Sz
+ht
+Sz
 Ua
 bp
 Ua
@@ -104195,12 +104197,12 @@ AD
 AD
 AD
 AD
-pz
-fn
-TH
-TH
-Fx
-cw
+wr
+wt
+Sz
+Sz
+KM
+re
 Ua
 Ua
 Ua
@@ -104452,12 +104454,12 @@ AD
 AD
 AD
 AD
-wS
-bZ
-zm
-UF
 cw
-wo
+bm
+TY
+pY
+re
+Lo
 Ua
 AD
 AD
@@ -104709,7 +104711,7 @@ AD
 AD
 AD
 AD
-wS
+cw
 Ua
 Ua
 Ua
