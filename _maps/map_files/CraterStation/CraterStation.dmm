@@ -759,6 +759,17 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron,
 /area/station/engineering/main)
+"cw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/mineral/stacking_machine{
+	input_dir = 2;
+	stack_amt = 10;
+	output_dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/disposal)
 "cx" = (
 /obj/structure/railing{
 	layer = 4
@@ -2489,6 +2500,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/station/security/brig/entrance)
+"hL" = (
+/obj/machinery/station_map/engineering/directional/north,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "hM" = (
 /obj/machinery/atmospherics/components/unary/passive_vent,
 /turf/open/floor/engine/hull/reinforced/planetary/icemoon,
@@ -4643,6 +4658,12 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
+"nZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/disposal)
 "oa" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/openspace,
@@ -5639,6 +5660,10 @@
 /obj/machinery/photocopier,
 /turf/open/floor/wood/large,
 /area/station/command/heads_quarters/nt_rep)
+"re" = (
+/obj/machinery/mineral/stacking_unit_console,
+/turf/closed/wall,
+/area/station/maintenance/disposal)
 "rf" = (
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/misc/grass/jungle,
@@ -6646,6 +6671,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
+/obj/machinery/station_map/engineering/directional/north,
 /turf/open/floor/wood,
 /area/station/command/meeting_room)
 "ua" = (
@@ -8487,6 +8513,13 @@
 /obj/structure/sign/poster/contraband/moffuchis_pizza/directional/north,
 /turf/open/floor/iron,
 /area/icemoon/surface/outdoors/nospawn)
+"zw" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/disposal)
 "zx" = (
 /obj/structure/closet/crate/grave,
 /turf/open/misc/dirt/icemoon,
@@ -10756,12 +10789,11 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "Gb" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 1
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
 	},
-/obj/structure/disposaloutlet{
-	dir = 8
-	},
+/obj/machinery/recycler,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
 "Gc" = (
@@ -12049,6 +12081,12 @@
 /obj/effect/turf_decal/box/corners,
 /turf/open/floor/plating/snowed/icemoon,
 /area/station/cargo/warehouse)
+"JM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/disposal)
 "JN" = (
 /obj/machinery/door/airlock/maintenance/external{
 	name = "Generator"
@@ -12240,6 +12278,10 @@
 /obj/machinery/meter,
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room)
+"Kx" = (
+/obj/machinery/station_map/engineering/directional/north,
+/turf/open/floor/wood,
+/area/station/command/corporate_showroom)
 "Ky" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /obj/item/shard/plasma,
@@ -12446,6 +12488,7 @@
 /area/station/hallway/secondary/entry/outpost)
 "Ld" = (
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/iron,
 /area/station/maintenance/disposal)
 "Le" = (
@@ -13119,6 +13162,19 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/supermatter/room)
+"Nj" = (
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/disposal)
 "Nk" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -15528,6 +15584,10 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/station/command/meeting_room)
+"Uj" = (
+/obj/machinery/station_map/engineering/directional/south,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "Uk" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -16237,10 +16297,10 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "Wl" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/disposal)
 "Wm" = (
@@ -16920,6 +16980,10 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"Yo" = (
+/obj/machinery/station_map/engineering/directional/east,
+/turf/open/floor/iron,
+/area/station/engineering/main)
 "Yp" = (
 /turf/open/floor/iron,
 /area/station/maintenance/disposal)
@@ -62361,7 +62425,7 @@ ig
 Ad
 uv
 Ad
-Ad
+Uj
 VB
 VB
 VB
@@ -94227,8 +94291,8 @@ WT
 sC
 sC
 Yp
-kc
-kc
+nZ
+Nj
 sC
 WT
 WT
@@ -94484,8 +94548,8 @@ WT
 sC
 Yp
 kc
-kc
-kc
+JM
+zw
 sC
 WT
 WT
@@ -94741,8 +94805,8 @@ sC
 sC
 Yp
 kc
-kc
-kc
+JM
+zw
 sC
 WT
 WT
@@ -94998,8 +95062,8 @@ sC
 kc
 kc
 kc
-kc
-kc
+JM
+Gb
 sC
 WT
 WT
@@ -95251,12 +95315,12 @@ WT
 WT
 WT
 WT
-sC
+re
 Yp
 kc
 kc
-kc
-kc
+cw
+zw
 sC
 WT
 WT
@@ -95512,7 +95576,7 @@ sC
 Yp
 Yp
 kc
-kc
+JM
 kc
 sC
 WT
@@ -95769,7 +95833,7 @@ sC
 Yp
 Yp
 kc
-kc
+JM
 kc
 sC
 Ez
@@ -96027,7 +96091,7 @@ sC
 Ld
 XE
 Wl
-Gb
+kc
 sC
 Ez
 Ez
@@ -106038,7 +106102,7 @@ Qj
 Qj
 Qj
 Qj
-Qj
+Sg
 zZ
 zZ
 Sg
@@ -106295,7 +106359,7 @@ AD
 AD
 AD
 AD
-Qj
+Sg
 zZ
 zZ
 Sg
@@ -106552,7 +106616,7 @@ AD
 AD
 AD
 AD
-Qj
+Sg
 zZ
 zZ
 bD
@@ -106809,7 +106873,7 @@ cU
 cU
 cU
 AD
-Qj
+Sg
 zZ
 zZ
 zZ
@@ -107066,7 +107130,7 @@ In
 rX
 cU
 AD
-Qj
+Sg
 zZ
 zZ
 Sg
@@ -128666,7 +128730,7 @@ Dr
 il
 Ad
 Ad
-Ad
+Yo
 Ad
 Ad
 Ad
@@ -182101,7 +182165,7 @@ ta
 rx
 rx
 rx
-cD
+Kx
 cD
 cD
 cD
@@ -193685,7 +193749,7 @@ ds
 ds
 ds
 VB
-Ad
+hL
 Ad
 Ad
 Ad
