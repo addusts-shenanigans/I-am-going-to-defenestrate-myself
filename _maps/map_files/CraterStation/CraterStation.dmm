@@ -217,7 +217,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 8
 	},
-/obj/machinery/light/blacklight/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "aO" = (
@@ -1386,10 +1386,21 @@
 /turf/open/floor/catwalk_floor,
 /area/station/engineering/supermatter/room)
 "ez" = (
-/turf/open/floor/iron/stairs/right{
+/obj/effect/mapping_helpers/airlock/access/all/science/general,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/area/station/hallway/secondary/entry)
+/obj/machinery/door/airlock/highsecurity{
+	name = "Research and Development"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "craterstation_science_access"
+	},
+/turf/open/floor/plating,
+/area/station/science/lobby)
 "eA" = (
 /obj/structure/bed/dogbed/renault,
 /mob/living/basic/pet/fox/renault,
@@ -2115,7 +2126,7 @@
 /turf/open/floor/wood,
 /area/station/command/meeting_room)
 "gA" = (
-/obj/machinery/light/floor,
+/obj/machinery/light/floor/has_bulb,
 /turf/open/floor/plating/snowed/icemoon,
 /area/station/cargo/crater_elevator)
 "gB" = (
@@ -3099,7 +3110,7 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/obj/machinery/light/floor,
+/obj/machinery/light/floor/has_bulb,
 /obj/effect/turf_decal/trimline/brown,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
@@ -3672,10 +3683,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "lf" = (
-/turf/open/floor/iron/stairs/left{
-	dir = 4
-	},
-/area/station/hallway/secondary/entry)
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/science/lobby)
 "lg" = (
 /obj/structure/girder/displaced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
@@ -4243,7 +4253,7 @@
 /turf/open/floor/iron,
 /area/station/commons/dorms/bunkhouse/floor2)
 "mN" = (
-/obj/machinery/light/floor,
+/obj/machinery/light/floor/has_bulb,
 /obj/effect/turf_decal/trimline/white,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
@@ -4291,7 +4301,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/station/engineering/supermatter/room)
 "mR" = (
-/obj/machinery/light/floor,
+/obj/machinery/light/floor/has_bulb,
 /obj/effect/turf_decal/trimline/dark_green,
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 1
@@ -4688,7 +4698,7 @@
 /area/station/cargo/storage)
 "of" = (
 /obj/effect/turf_decal/trimline/dark_blue/line,
-/obj/machinery/light/red/dim/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/hallway/secondary/entry)
 "og" = (
@@ -7518,7 +7528,12 @@
 /obj/machinery/door/airlock/research{
 	name = "Science Office"
 	},
-/turf/open/floor/iron/smooth_large,
+/obj/effect/mapping_helpers/airlock/access/all/science/general,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/station/science/lobby)
 "wu" = (
 /obj/structure/stairs/wood,
@@ -7664,7 +7679,7 @@
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 1
 	},
-/obj/machinery/light/red/dim/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/freezer,
 /area/station/hallway/secondary/entry)
 "wQ" = (
@@ -9572,7 +9587,7 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/supermatter)
 "CB" = (
-/obj/machinery/light/red/dim/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "CC" = (
@@ -10474,9 +10489,8 @@
 /turf/open/floor/iron/dark,
 /area/station/maintenance/radshelter/weathershelter)
 "Fl" = (
-/obj/machinery/computer/arcade/battle,
-/obj/machinery/light/red/dim/directional/north,
-/turf/open/floor/eighties,
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood,
 /area/station/hallway/secondary/entry)
 "Fm" = (
 /obj/structure/table/wood/fancy/green,
@@ -11154,7 +11168,7 @@
 /turf/open/floor/iron/white,
 /area/station/security/medical)
 "He" = (
-/obj/machinery/light/floor,
+/obj/machinery/light/floor/has_bulb,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/station/cargo/crater_elevator)
 "Hf" = (
@@ -11244,7 +11258,7 @@
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room)
 "Ht" = (
-/obj/machinery/light/red/dim/directional/west,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "Hu" = (
@@ -12124,7 +12138,7 @@
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 1
 	},
-/obj/machinery/light/red/dim/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "JU" = (
@@ -13481,7 +13495,7 @@
 /area/station/hallway/secondary/entry)
 "Oh" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line,
-/obj/machinery/light/red/dim/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "Oi" = (
@@ -14795,9 +14809,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "RP" = (
-/obj/machinery/light/red/dim/directional/north,
-/turf/open/floor/wood,
-/area/station/hallway/secondary/entry)
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/science/lobby)
 "RQ" = (
 /obj/docking_port/stationary{
 	dheight = 1;
@@ -14812,7 +14827,7 @@
 /area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "RR" = (
 /obj/structure/table,
-/obj/machinery/light/red/dim/directional/south,
+/obj/machinery/light/directional/south,
 /obj/structure/sign/poster/random/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
@@ -14967,7 +14982,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
 	},
-/obj/machinery/light/blacklight/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "Sr" = (
@@ -15005,6 +15020,10 @@
 "Sw" = (
 /turf/open/floor/iron,
 /area/station/service/hydroponics/garden)
+"Sx" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth_half,
+/area/station/science/lobby)
 "Sy" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/pink/hidden,
@@ -15515,6 +15534,11 @@
 "TX" = (
 /turf/closed/wall,
 /area/station/command/heads_quarters/nt_rep)
+"TY" = (
+/obj/machinery/computer/arcade/battle,
+/obj/machinery/light/directional/north,
+/turf/open/floor/eighties,
+/area/station/hallway/secondary/entry)
 "TZ" = (
 /turf/closed/wall/r_wall,
 /area/station/command/heads_quarters/cmo)
@@ -16909,7 +16933,7 @@
 	dir = 4;
 	layer = 4
 	},
-/obj/machinery/light/floor,
+/obj/machinery/light/floor/has_bulb,
 /obj/effect/turf_decal/trimline/brown,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
@@ -43606,7 +43630,7 @@ aC
 aC
 Fg
 Fg
-Km
+Fg
 Km
 Km
 Km
@@ -43863,12 +43887,12 @@ aC
 aC
 aC
 Fg
+Fg
 Km
 Ps
 vQ
 Km
 Ji
-WQ
 WQ
 sP
 Km
@@ -44120,11 +44144,11 @@ aC
 aC
 aC
 aC
+Fg
 Km
-Fl
+TY
 Og
 Og
-uz
 uz
 uz
 uz
@@ -44377,13 +44401,13 @@ Tj
 EM
 EM
 EM
+Tj
 Km
 Ps
 Qi
 oD
 dO
 gj
-ez
 dO
 dO
 dO
@@ -44634,12 +44658,12 @@ UG
 UG
 UG
 UG
+UG
 gn
 Uk
 Uk
 Uk
 ju
-wk
 wk
 ju
 Uk
@@ -44891,8 +44915,8 @@ Bj
 Bj
 Bj
 Bj
+Bj
 Km
-NC
 NC
 NC
 NC
@@ -45153,8 +45177,8 @@ PA
 PA
 PA
 PA
-Vn
 PA
+Vn
 PA
 PA
 PA
@@ -45410,8 +45434,8 @@ UW
 UW
 UW
 UW
-gN
 UW
+gN
 UW
 UW
 UW
@@ -45667,8 +45691,8 @@ uT
 uT
 uT
 uT
-oX
 uT
+oX
 uT
 uT
 uT
@@ -45919,8 +45943,8 @@ Bj
 Bj
 Bj
 Bj
+Bj
 Km
-Gp
 Gp
 Gp
 Gp
@@ -46176,12 +46200,12 @@ XR
 XR
 XR
 Wz
+XR
 LU
 uj
 uj
 uj
 Ya
-wk
 wk
 Ya
 uj
@@ -46433,13 +46457,13 @@ Tj
 EM
 EM
 EM
+Tj
 Km
 Pv
 yL
 qq
 Fz
 kO
-lf
 Fz
 Fz
 Fz
@@ -46690,11 +46714,11 @@ aC
 aC
 aC
 aC
+Fg
 Km
-RP
+Fl
 bS
 EU
-uz
 uz
 uz
 uz
@@ -46947,12 +46971,12 @@ aC
 aC
 aC
 aC
+Fg
 Km
 YL
 YL
 Km
 QE
-bb
 bb
 VK
 Km
@@ -47204,7 +47228,7 @@ aC
 aC
 aC
 Fg
-Km
+Fg
 Km
 Km
 Km
@@ -101446,12 +101470,12 @@ Ez
 Ez
 Ez
 Ez
-Ez
-Ez
-Ez
-Ez
-Ez
-Ez
+Mu
+ez
+Mu
+Mu
+ez
+Mu
 Ez
 AD
 AD
@@ -101703,12 +101727,12 @@ Ez
 Ez
 Ez
 Ez
-Ez
-Ez
-Ez
-Ez
-Ez
-Ez
+Mu
+SX
+RP
+RP
+TH
+Mu
 AD
 AD
 AD
@@ -101960,12 +101984,12 @@ Ez
 Ez
 Ez
 Ez
-Ez
-Ez
-Ez
-AD
-AD
-AD
+Mu
+Sx
+OU
+OU
+lf
+Mu
 AD
 AD
 AD
@@ -102217,12 +102241,12 @@ Ez
 Ez
 Ez
 Ez
-Ez
-Ez
-AD
-AD
-AD
-AD
+Mu
+LS
+RP
+RP
+Pg
+Mu
 AD
 AD
 AD
@@ -102474,11 +102498,11 @@ Ez
 Ez
 Ez
 Ez
-AD
-AD
-AD
-AD
-AD
+Mu
+ez
+Mu
+Mu
+ez
 Mu
 Ua
 Ua
@@ -102730,12 +102754,12 @@ Ez
 Ez
 Ez
 Ez
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+Mu
+SX
+RP
+RP
+TH
 Mu
 ZQ
 ht
@@ -102987,12 +103011,12 @@ Ez
 Ez
 Ez
 Ez
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+SX
+Pg
+OU
+OU
+ki
 wt
 ki
 OU
@@ -103244,18 +103268,18 @@ Ez
 Ez
 Ez
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+Sx
+OU
+OU
+OU
+lf
 Mu
 ki
 OU
 OU
 nw
-OU
+ki
 Ua
 gc
 Ua
@@ -103501,18 +103525,18 @@ Ez
 Ez
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+ki
+OU
+OU
+OU
+ki
 lw
 ki
 OU
 OU
 OU
-OU
+ki
 wm
 Fb
 lT
@@ -103758,18 +103782,18 @@ Ez
 Ez
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+ki
+OU
+OU
+OU
+ki
 jx
 ki
 OU
 OU
 ND
-OU
+ki
 kD
 hZ
 dw
@@ -104015,18 +104039,18 @@ Ez
 Ez
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+Sx
+OU
+OU
+OU
+lf
 Mu
 ki
 OU
 OU
 wS
-OU
+ki
 Ua
 bp
 Ua
@@ -104272,12 +104296,12 @@ Ez
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+LS
+TH
+OU
+OU
+ki
 wt
 ki
 OU
@@ -104529,12 +104553,12 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
-AD
+Mu
+Mu
+LS
+RP
+RP
+Pg
 Mu
 dL
 ht
@@ -104787,11 +104811,11 @@ AD
 AD
 AD
 AD
-AD
-AD
-AD
-AD
-AD
+Mu
+Mu
+Mu
+Mu
+Mu
 Mu
 Ua
 Ua
@@ -167499,9 +167523,9 @@ AD
 AD
 AD
 AD
-fO
-fO
-fO
+ds
+ds
+ds
 fO
 fO
 fO
@@ -167755,10 +167779,10 @@ AD
 AD
 AD
 sx
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
 fO
 fO
 fO
@@ -168010,11 +168034,11 @@ AD
 AD
 AD
 AD
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -168266,12 +168290,12 @@ AD
 AD
 AD
 AD
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -168523,12 +168547,12 @@ AD
 AD
 sx
 AD
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 yn
 Ob
@@ -168780,12 +168804,12 @@ AD
 AD
 AD
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 CO
 xH
@@ -169037,12 +169061,12 @@ AD
 AD
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 CO
 xH
@@ -169294,12 +169318,12 @@ AD
 AD
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 CO
 xH
@@ -169551,12 +169575,12 @@ AD
 sx
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 CO
 xH
@@ -169808,12 +169832,12 @@ AD
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 Ch
 wV
@@ -170065,12 +170089,12 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds
@@ -170323,11 +170347,11 @@ fO
 fO
 fO
 fO
-fO
-fO
-fO
-fO
-fO
+ds
+ds
+ds
+ds
+ds
 ds
 ds
 ds

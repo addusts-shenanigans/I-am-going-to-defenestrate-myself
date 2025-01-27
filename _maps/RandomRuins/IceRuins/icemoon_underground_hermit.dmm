@@ -7,8 +7,9 @@
 /turf/open/misc/dirt/station,
 /area/ruin/powered/hermit)
 "bM" = (
-/obj/structure/fans/tiny/invisible,
 /obj/structure/mineral_door/manual_colony_door,
+/obj/structure/cable,
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/colony/texture,
 /area/ruin/powered/hermit)
 "cI" = (
@@ -32,6 +33,11 @@
 /obj/effect/mob_spawn/ghost_role/human/hermit,
 /turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
+"hg" = (
+/obj/structure/cable,
+/obj/machinery/power/colony_wind_turbine,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/underground/explored)
 "hN" = (
 /obj/structure/bonfire/prelit,
 /obj/machinery/light/directional/north,
@@ -40,6 +46,10 @@
 /area/ruin/powered/hermit)
 "ii" = (
 /obj/item/clothing/suit/hooded/wintercoat,
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/effect/mapping_helpers/apc/full_charge,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/structure/cable,
 /turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
 "il" = (
@@ -65,6 +75,10 @@
 "jG" = (
 /turf/closed/wall/ice,
 /area/icemoon/underground/explored)
+"lX" = (
+/obj/structure/cable,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
 "mN" = (
 /turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
@@ -85,7 +99,14 @@
 /turf/open/floor/grass,
 /area/ruin/powered/hermit)
 "sC" = (
-/obj/item/chair/wood/wings,
+/obj/structure/table,
+/turf/open/floor/iron/colony,
+/area/ruin/powered/hermit)
+"ul" = (
+/obj/item/gun/energy/laser/musket/prime,
+/obj/structure/closet/generic/wall/directional/west{
+	name = "emergency supplies locker"
+	},
 /turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
 "uw" = (
@@ -93,9 +114,12 @@
 /turf/open/floor/grass,
 /area/ruin/powered/hermit)
 "wf" = (
-/obj/item/gun/ballistic/rifle/boltaction/pipegun/prime,
-/obj/structure/table/wood,
-/obj/item/flashlight/lantern,
+/obj/structure/table,
+/obj/item/flashlight/lantern/rayne{
+	pixel_x = -2;
+	pixel_y = 17
+	},
+/obj/machinery/space_heater/wall_mounted/directional/south,
 /turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
 "wH" = (
@@ -110,6 +134,11 @@
 /obj/structure/table/wood,
 /obj/item/knife/combat,
 /turf/open/floor/grass,
+/area/ruin/powered/hermit)
+"zw" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
 "CR" = (
 /obj/item/flashlight/lantern,
@@ -163,6 +192,10 @@
 /area/ruin/powered/hermit)
 "Xl" = (
 /turf/open/floor/plating,
+/area/ruin/powered/hermit)
+"Yg" = (
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
 /area/ruin/powered/hermit)
 "Yi" = (
 /obj/item/seeds/plump,
@@ -267,9 +300,9 @@ TW
 aM
 il
 aM
-aM
-aM
-aM
+hg
+lX
+hg
 "}
 (6,1,1) = {"
 YN
@@ -286,7 +319,7 @@ TL
 TL
 aM
 aM
-Rr
+lX
 aM
 "}
 (7,1,1) = {"
@@ -300,12 +333,12 @@ TL
 ec
 ii
 ha
-mN
+ul
 TL
 aM
 aM
+lX
 aM
-il
 "}
 (8,1,1) = {"
 YN
@@ -316,13 +349,13 @@ GU
 cI
 TL
 hN
-JI
-mN
-mN
+zw
+Yg
+Yg
 bM
-aM
-aM
-Rr
+lX
+lX
+lX
 aM
 "}
 (9,1,1) = {"
