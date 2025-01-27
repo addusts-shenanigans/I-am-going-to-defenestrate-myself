@@ -817,6 +817,13 @@
 /turf/open/floor/wood,
 /area/station/command/corporate_showroom)
 "cE" = (
+/obj/effect/landmark/lift_id{
+	specific_lift_id = "nt_rep_elevator"
+	},
+/obj/machinery/elevator_control_panel/directional/east{
+	linked_elevator_id = "nt_rep_elevator"
+	},
+/obj/structure/industrial_lift/public,
 /turf/open/floor/plating/elevatorshaft,
 /area/station/command/heads_quarters/nt_rep)
 "cF" = (
@@ -1070,8 +1077,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "dz" = (
-/turf/open/floor/iron/dark,
-/area/station/commons/toilet/restrooms)
+/obj/structure/railing,
+/turf/open/floor/plating,
+/area/station/maintenance/department/bridge)
 "dA" = (
 /obj/machinery/light/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -2054,7 +2062,7 @@
 /area/station/medical/storage)
 "gp" = (
 /obj/structure/industrial_lift,
-/turf/open/openspace/icemoon/keep_below,
+/turf/open/floor/plating/snowed/icemoon,
 /area/station/cargo/crater_elevator)
 "gq" = (
 /obj/structure/railing{
@@ -4437,6 +4445,10 @@
 /area/station/service/hydroponics/garden)
 "nm" = (
 /obj/structure/stairs/north,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/bridge)
 "nn" = (
@@ -6539,6 +6551,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/icemoon,
 /area/station/maintenance/department/engine/abandoned_generator)
+"tB" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/medical/morgue,
+/turf/open/floor/plating,
+/area/station/maintenance/department/bridge)
 "tC" = (
 /obj/structure/closet/emcloset,
 /obj/effect/landmark/start/hangover/closet,
@@ -7509,6 +7527,13 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,
 /area/station/command/corporate_showroom)
+"wo" = (
+/obj/structure/industrial_lift,
+/obj/effect/landmark/lift_id{
+	specific_lift_id = "crater_main_access_elevator"
+	},
+/turf/open/floor/plating/snowed/icemoon,
+/area/station/cargo/crater_elevator)
 "wp" = (
 /obj/effect/spawner/random/structure/closet_private,
 /obj/effect/turf_decal/siding/wood,
@@ -9795,15 +9820,13 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "Dm" = (
-/obj/effect/landmark/lift_id{
-	specific_lift_id = "nt_rep_elevator"
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8
 	},
-/obj/machinery/elevator_control_panel/directional/east{
-	linked_elevator_id = "nt_rep_elevator"
-	},
-/obj/structure/industrial_lift/public,
-/turf/open/openspace,
-/area/station/command/heads_quarters/nt_rep)
+/turf/open/floor/plating,
+/area/station/maintenance/department/bridge)
 "Dn" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 4
@@ -14755,6 +14778,9 @@
 	name = "Elevator Maintenance"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/cargo/crater_elevator)
 "RH" = (
@@ -15327,10 +15353,10 @@
 /area/station/maintenance/department/engine/abandoned_generator)
 "Tu" = (
 /obj/structure/industrial_lift,
-/obj/effect/landmark/lift_id{
-	specific_lift_id = "crater_main_access_elevator"
+/obj/machinery/elevator_control_panel/directional/east{
+	linked_elevator_id = "crater_main_access_elevator"
 	},
-/turf/open/openspace/icemoon/keep_below,
+/turf/open/floor/plating/snowed/icemoon,
 /area/station/cargo/crater_elevator)
 "Tv" = (
 /obj/structure/rack,
@@ -16687,11 +16713,14 @@
 /turf/open/floor/wood,
 /area/station/commons/lounge/public_house)
 "Xl" = (
-/obj/structure/industrial_lift,
-/obj/machinery/elevator_control_panel/directional/east{
-	linked_elevator_id = "crater_main_access_elevator"
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Elevator Maintenance"
 	},
-/turf/open/openspace/icemoon/keep_below,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
 /area/station/cargo/crater_elevator)
 "Xm" = (
 /obj/effect/turf_decal/delivery,
@@ -34931,9 +34960,9 @@ Fg
 Fg
 Fg
 wO
-YY
-YY
-YY
+gp
+gp
+gp
 wO
 Fg
 Fg
@@ -35188,9 +35217,9 @@ Fg
 Fg
 Fg
 wO
-YY
-YY
-YY
+gp
+wo
+gp
 wO
 Fg
 Fg
@@ -35445,9 +35474,9 @@ Fg
 Fg
 Fg
 wO
-YY
-YY
-YY
+gp
+Tu
+gp
 wO
 Fg
 Fg
@@ -36988,7 +37017,7 @@ Fg
 Fg
 Fg
 wO
-RG
+Xl
 wO
 wO
 Fg
@@ -48556,8 +48585,8 @@ Ae
 rA
 YB
 NY
-NY
-NY
+Xw
+Xw
 II
 II
 Xw
@@ -48813,8 +48842,8 @@ HQ
 VS
 oP
 rr
-NY
-dz
+Xw
+II
 II
 II
 rF
@@ -49070,13 +49099,13 @@ Ku
 Ek
 Ek
 vj
-NY
+Xw
+II
+II
+II
+tB
+op
 dz
-II
-II
-op
-op
-op
 FM
 ot
 op
@@ -49327,12 +49356,12 @@ Kj
 NY
 NY
 NY
-NY
-NY
+Xw
+Xw
 Nt
 Xw
 rF
-rF
+Dm
 rF
 rF
 jG
@@ -100467,9 +100496,9 @@ AD
 AD
 GQ
 GQ
-gp
-gp
-gp
+Vt
+Vt
+Vt
 GQ
 GQ
 AD
@@ -100724,9 +100753,9 @@ AD
 AD
 GQ
 GQ
-gp
-Tu
-gp
+Vt
+Vt
+Vt
 GQ
 GQ
 AD
@@ -100981,9 +101010,9 @@ AD
 AD
 GQ
 GQ
-gp
-Xl
-gp
+Vt
+Vt
+Vt
 GQ
 GQ
 AD
@@ -117943,7 +117972,7 @@ AD
 AD
 AD
 Ng
-Dm
+pa
 Ng
 AD
 Or

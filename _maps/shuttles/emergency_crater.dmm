@@ -372,6 +372,10 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/escape/brig)
+"vS" = (
+/obj/item/surgery_tray/deployed,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/escape)
 "vW" = (
 /obj/machinery/computer/operating{
 	dir = 8
@@ -434,7 +438,14 @@
 /area/shuttle/escape)
 "BP" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/recharger,
+/obj/machinery/recharger{
+	pixel_x = -4;
+	pixel_y = 0
+	},
+/obj/machinery/recharger{
+	pixel_x = 5;
+	pixel_y = 0
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape/brig)
 "BW" = (
@@ -522,7 +533,7 @@
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "FI" = (
-/obj/machinery/computer/security,
+/obj/machinery/computer/communications,
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "Gk" = (
@@ -640,6 +651,10 @@
 "LY" = (
 /obj/machinery/light/directional/west,
 /obj/structure/table/reinforced/titaniumglass,
+/obj/item/storage/medkit/surgery{
+	pixel_x = 2;
+	pixel_y = -10
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "LZ" = (
@@ -1049,7 +1064,7 @@ Oc
 lm
 lN
 Oi
-BP
+lm
 jY
 cw
 cn
@@ -1237,7 +1252,7 @@ iE
 pz
 pC
 nZ
-nZ
+vS
 nZ
 nZ
 LY
