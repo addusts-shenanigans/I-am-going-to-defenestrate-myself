@@ -15,3 +15,22 @@
 	name = "Crater Outpost Station"
 	platform_code = "CRATER_ARRIVALS_STATION"
 	tgui_icons = list("Crater Outpost" = "wrench")
+
+/obj/effect/landmark/tram/crater/ordnance
+	specific_lift_id = "CRATER_ORDNANCE"
+
+/obj/effect/landmark/tram/crater/ordnance/rnd
+	name = "Crater Outpost Ordnance Research"
+	platform_code = "CRATER_ORDNANCE_RND"
+	tgui_icons = list("Research Facilities" = "flask")
+
+/obj/effect/landmark/tram/crater/ordnance/testing_site
+	name = "Ordnance Test Site"
+	platform_code = "CRATER_ORDNANCE_TEST"
+	tgui_icons = list("Bomb Test Site (WARNING)" = "bullseye")
+
+/obj/structure/industrial_lift/tram/catwalk
+	icon_state = "catwalk-0"
+	base_icon_state = "catwalk"
+
+

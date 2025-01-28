@@ -77,3 +77,12 @@
 	tguitheme = "nanotrasen"
 	content = list("<center><b>PTL CONTROL SYSTEM</b></center> <BR> Control systems are locked. Please contact Central Command if alteration is required. <BR> <BR> Laser reflector tracking relay node Eta-8, holding 33 degrees L/R and 29 degrees F/B offset.")
 	upperinfo = "LASER REFLECTOR MK. 8 REMOTE CONTROL UNIT - RESTRICTED ACCESS"
+
+/obj/machinery/computer/terminal/craterstation/blacklab
+	name = "old terminal"
+	desc = "An old, frozen up control terminal for some piece of bluespace machinery."
+	icon_keyboard = "teleport_key"
+	icon_screen = "teleport"
+	tguitheme = "nanotrasen"
+	content = list("<center><b>BLUESPACE RELOCATOR CONTROLS</b></center> <BR> Teleporter disconnected. Last input shown below: <BR> <BR> SEND OFFSET 1 FLOOR UP 30 M WEST 30 M SOUTH")
+	upperinfo = "BLUESPACE TELEPORTATION DEVICE MK. 1 CONTROL SYSTEM"
