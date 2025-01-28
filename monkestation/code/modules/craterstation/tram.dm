@@ -30,7 +30,6 @@
 	tgui_icons = list("Bomb Test Site (WARNING)" = "bullseye")
 
 /obj/structure/industrial_lift/tram/catwalk
+	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	icon_state = "catwalk-0"
 	base_icon_state = "catwalk"
-
-
