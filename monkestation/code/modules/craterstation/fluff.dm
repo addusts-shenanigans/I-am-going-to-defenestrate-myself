@@ -60,6 +60,7 @@
 
 /turf/open/misc/dirt/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+	baseturfs = /turf/open/misc/asteroid/snow/icemoon //sometimes under a roof, other times outside
 
 // terminals and other whatnot
 
