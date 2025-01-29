@@ -17,6 +17,9 @@
 /obj/item/paper/crumpled/craterstation/generator_blowout
 	default_raw_text = "John noticed some pressure irregularities in the generator's main burn chamber, so we're preparing to reduce power in order to do a maintenance check. Hopefully we'll- *The writing past here is practically unreadable, seemingly affected by some sort of seismic event - or an explosion.*"
 
+/obj/item/paper/crumpled/craterstation/genetics_stew
+	default_raw_text = "Make sure the stew stays warm, and when it runs out, replace it. It is best that people who have been freshly-cloned are comfortably accomodated - they're probably having a REALLY bad day, and just going 'get back to work' and throwing their gear at them is a pretty unfriendly experience."
+
 //custom corpse - Constructor
 
 /obj/effect/mob_spawn/corpse/human/crater_constructor
