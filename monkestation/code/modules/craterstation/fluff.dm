@@ -89,3 +89,18 @@
 	tguitheme = "nanotrasen"
 	content = list("<center><b>BLUESPACE RELOCATOR CONTROLS</b></center> <BR> Teleporter disconnected. Last input shown below: <BR> <BR> SEND OFFSET 1 FLOOR UP 30 M WEST 30 M SOUTH")
 	upperinfo = "BLUESPACE TELEPORTATION DEVICE MK. 1 CONTROL SYSTEM"
+
+/obj/machinery/computer/terminal/craterstation/evac_dock_cargo
+	name = "logistics terminal"
+	desc = "A frozen-up terminal that records manifests of shipping containers."
+	tguitheme = "nanotrasen"
+	icon_screen = "supply"
+	content = list("<center><b>CONTAINER MANIFEST: NO. 6</center></b> <BR> <BR> <b>ORIGIN:</b> JCSS LONDON MATERIALS RESERVE <BR> <b>CLASS:</b> STANDARD (20) KOSMOSLOGISTIKA <BR> <b>CONTENTS:</b> 200x STEEL SHEETS, 100x GLASS SHEETS, 50x REINFORCED GLASS, 50x PLLASTEEL, 2x PORTABLE STEW TANK <BR> <BR> <b>OWNER:</b> JOHNSON AND CO ARCHITECTURE <BR> <b>DESTINATION:</b> NTO. 13 'CRATER' CONSTRUCTION SITE")
+	upperinfo = "Signed in as John Miller // Johnson and Co Architecture - ntOS 3.11"
+
+/obj/machinery/computer/terminal/craterstation/tram_maint
+	name = "tram maintenance terminal"
+	desc = "A terminal responsible for controlling the maintenance system of the tram."
+	tguitheme = "nanotrasen"
+	content = list("<center><b>WARNING: SYSTEM LOCKED</b><BR>The tram maintenance system is currently locked. Reason: Tram in active service.</center>")
+	upperinfo = "Tram Controller 3.11 - Property of Nanotrasen Corporation"
