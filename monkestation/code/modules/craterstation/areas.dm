@@ -49,3 +49,12 @@
 
 /area/station/maintenance/arrivals_outpost
 	name = "Arrivals Outpost Maintenance"
+
+/area/station/hallway/secondary/exit/tram
+	name = "Departures Tram Line"
+
+/area/station/hallway/secondary/exit/tram/west
+	name = "Departures Tram Line Western Station"
+
+/area/station/hallway/secondary/exit/tram/east
+	name = "Departures Tram Line Eastern Station"

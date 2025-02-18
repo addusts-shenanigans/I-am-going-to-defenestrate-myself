@@ -33,3 +33,16 @@
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	icon_state = "catwalk-0"
 	base_icon_state = "catwalk"
+
+/obj/effect/landmark/tram/crater/evac
+	specific_lift_id = "CRATER_DEPARTURES"
+
+/obj/effect/landmark/tram/crater/evac/station
+	name = "Crater Outpost Tunnel Network"
+	platform_code = "CRATER_DEPARTURES_STATION"
+	tgui_icons = list("Crater Outpost" = "wrench")
+
+/obj/effect/landmark/tram/crater/evac/dock
+	name = "Departures"
+	platform_code = "CRATER_DEPARTURES_DOCK"
+	tgui_icons = list("Departures" = "plane-departure", "Auxiliary Freight Spaceport" = "box")

@@ -20,6 +20,10 @@
 /obj/item/paper/crumpled/craterstation/genetics_stew
 	default_raw_text = "Make sure the stew stays warm, and when it runs out, replace it. It is best that people who have been freshly-cloned are comfortably accomodated - they're probably having a REALLY bad day, and just going 'get back to work' and throwing their gear at them is a pretty unfriendly experience."
 
+/obj/item/paper/crumpled/craterstation/gorlex_evac
+	default_raw_text = "<b>INCOMING ORDER FROM JCSS LONDON:</b><BR><BR>All Gorlex Securities staff assigned to Crater outpost security detail are to relocate to the new security building. The temporary outpost will be demolished shortly."
+
+
 //custom corpse - Constructor
 
 /obj/effect/mob_spawn/corpse/human/crater_constructor
