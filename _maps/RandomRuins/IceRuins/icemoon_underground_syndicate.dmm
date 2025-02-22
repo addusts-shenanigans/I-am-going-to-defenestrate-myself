@@ -282,6 +282,12 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/ruin/icemoon_syndicate/engineering)
+"ea" = (
+/obj/machinery/power/stirling_generator{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/underground/explored)
 "eb" = (
 /obj/machinery/door/airlock{
 	name = "Cabin 3"
@@ -1077,6 +1083,10 @@
 "ok" = (
 /obj/machinery/space_heater/wall_mounted/directional/north,
 /turf/open/misc/dirt/station,
+/area/ruin/icemoon_syndicate/tunnel)
+"op" = (
+/obj/machinery/porta_turret/syndicate/depot,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/ruin/icemoon_syndicate/tunnel)
 "ox" = (
 /obj/machinery/suit_storage_unit/syndicate,
@@ -1940,7 +1950,6 @@
 /obj/structure/table/reinforced,
 /obj/machinery/fax{
 	syndicate_network = 1;
-	visible_to_network = 0;
 	name = "cargo bay fax machine";
 	fax_name = "Syndicate Joint Base Cargo Department";
 	pixel_x = 0;
@@ -2165,6 +2174,13 @@
 	pixel_x = -26;
 	pixel_y = 21
 	},
+/obj/machinery/turretid{
+	control_area = "/area/ruin/icemoon_syndicate/tunnel";
+	req_access = list("syndicate");
+	desc = "Used to control the facility's automated defenses.";
+	pixel_x = -28;
+	pixel_y = -23
+	},
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/communications)
 "BB" = (
@@ -2335,6 +2351,7 @@
 	pixel_x = -4;
 	pixel_y = -7
 	},
+/obj/item/disk/surgery/brainwashing,
 /turf/open/floor/iron/colony,
 /area/ruin/icemoon_syndicate/vault)
 "DL" = (
@@ -2723,7 +2740,6 @@
 /obj/structure/table/wood/fancy,
 /obj/machinery/fax{
 	syndicate_network = 1;
-	visible_to_network = 0;
 	name = "syndicate fax machine";
 	fax_name = "Syndicate Joint Base Command Office";
 	pixel_x = 0;
@@ -2987,8 +3003,6 @@
 /turf/open/floor/iron,
 /area/ruin/icemoon_syndicate/research)
 "Nn" = (
-/obj/structure/safe,
-/obj/item/disk/surgery/brainwashing,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
@@ -4537,8 +4551,8 @@ tj
 tj
 tj
 tj
-Dg
-Dg
+tj
+tj
 Dg
 Dg
 Dg
@@ -4594,7 +4608,7 @@ aa
 aa
 aa
 aa
-aa
+op
 tj
 tj
 tj
@@ -4607,8 +4621,8 @@ tj
 tj
 tj
 tj
-Dg
-Dg
+tj
+tj
 Dg
 Dg
 Dg
@@ -4676,8 +4690,8 @@ tj
 tj
 tj
 tj
-Dg
-Dg
+tj
+tj
 Dg
 Dg
 Dg
@@ -4745,8 +4759,8 @@ tj
 tj
 tj
 tj
-Dg
-Dg
+tj
+tj
 Dg
 Dg
 Dg
@@ -4813,9 +4827,9 @@ tj
 tj
 tj
 tj
-Dg
-Dg
-Dg
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4859,7 +4873,7 @@ GW
 jn
 jn
 tu
-aa
+op
 aa
 aa
 aa
@@ -4882,8 +4896,8 @@ tj
 tj
 tj
 tj
-Dg
-Dg
+tj
+tj
 Dg
 Dg
 Dg
@@ -4950,9 +4964,9 @@ tj
 tj
 tj
 tj
-Dg
-Dg
-Dg
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -4988,7 +5002,7 @@ tj
 MW
 yU
 oj
-aa
+op
 aa
 aa
 Ne
@@ -5018,9 +5032,9 @@ tj
 tj
 tj
 tj
-Dg
-Dg
-Dg
+tj
+tj
+tj
 Dg
 Dg
 Dg
@@ -5087,8 +5101,8 @@ tj
 tj
 tj
 tj
-Dg
-Dg
+tj
+tj
 Dg
 Dg
 Dg
@@ -5155,7 +5169,7 @@ tj
 tj
 tj
 tj
-Dg
+tj
 Dg
 Dg
 Dg
@@ -5334,7 +5348,7 @@ tj
 tj
 tj
 tj
-aa
+op
 tj
 tj
 tj
@@ -5614,8 +5628,8 @@ tj
 dq
 KJ
 KJ
-DO
-DO
+KJ
+lo
 DO
 DO
 oN
@@ -5682,7 +5696,7 @@ Ua
 SZ
 Bt
 Ua
-Ua
+ea
 oN
 oN
 oN
@@ -6063,14 +6077,14 @@ aM
 aM
 aM
 Aa
-Aa
+op
 Ua
 tj
 tj
 tj
 tj
 tj
-lF
+op
 lF
 lF
 iE
@@ -6127,7 +6141,7 @@ Aa
 If
 QE
 ug
-Aa
+op
 Aa
 Aa
 Aa
@@ -6305,7 +6319,7 @@ Bl
 Np
 tY
 lF
-lF
+op
 tj
 tj
 tj
@@ -6487,7 +6501,7 @@ Mk
 Mk
 Mb
 Mk
-iE
+op
 lF
 lF
 lF
@@ -6612,7 +6626,7 @@ tj
 tj
 tj
 tj
-lF
+op
 lF
 lF
 lF
@@ -6674,7 +6688,7 @@ PJ
 JE
 xJ
 Aa
-Aa
+op
 tj
 tj
 tj
@@ -6836,7 +6850,7 @@ Mk
 Mb
 Mk
 iE
-lF
+op
 lF
 lF
 lF
@@ -6850,7 +6864,7 @@ In
 Pq
 Wl
 lF
-Ua
+op
 tj
 tj
 tj
@@ -7123,7 +7137,7 @@ Wl
 Wl
 lF
 lF
-lF
+op
 XF
 tj
 tj
@@ -7723,7 +7737,7 @@ lF
 aF
 iE
 iE
-lF
+op
 lF
 Kq
 Kq
@@ -7778,7 +7792,7 @@ FS
 Ua
 Ua
 Ua
-lF
+op
 lF
 lF
 lF
