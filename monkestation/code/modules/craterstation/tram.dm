@@ -46,3 +46,14 @@
 	name = "Departures"
 	platform_code = "CRATER_DEPARTURES_DOCK"
 	tgui_icons = list("Departures" = "plane-departure", "Auxiliary Freight Spaceport" = "box")
+
+/obj/effect/landmark/tram/crater/dumbwaiter
+	specific_lift_id = "CRATER_DUMBWAITER"
+
+/obj/effect/landmark/tram/crater/dumbwaiter/botany
+	name = "Hothouse Loading Zone"
+	platform_code = "CRATER_DUMBWAITER_BOTANY"
+
+/obj/effect/landmark/tram/crater/dumbwaiter/kitchen
+	name = "Kitchen"
+	platform_code = "CRATER_DUMBWAITER_KITCHEN"
