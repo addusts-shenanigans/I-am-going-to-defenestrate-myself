@@ -1735,6 +1735,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/holosign/barrier/atmos/tram,
 /turf/open/floor/plating,
 /area/station/science/ordnance/testlab)
 "bon" = (
@@ -7113,6 +7114,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/security/brig/entrance)
+"fqk" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/station/engineering/atmos/hallway)
 "fqC" = (
 /obj/docking_port/stationary{
 	dir = 2;
@@ -12000,7 +12004,7 @@
 /area/station/medical/treatment_center)
 "iRR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/closed/wall,
+/turf/closed/wall/rust,
 /area/icemoon/surface/outdoors/nospawn)
 "iSb" = (
 /obj/effect/turf_decal/siding/wood{
@@ -14664,6 +14668,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/holosign/barrier/atmos/tram,
 /turf/open/floor/plating,
 /area/station/science/ordnance/testlab)
 "kIZ" = (
@@ -16453,6 +16458,9 @@
 "meI" = (
 /turf/open/openspace,
 /area/station/commons/fitness/recreation)
+"mfw" = (
+/turf/open/floor/iron,
+/area/station/engineering/atmos/hallway)
 "mfE" = (
 /obj/structure/cable,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
@@ -17949,7 +17957,9 @@
 /area/station/hallway/secondary/exit/tram)
 "nmh" = (
 /obj/effect/mapping_helpers/burnt_floor,
-/turf/open/floor/plating,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "ICEMOON_ATMOS"
+	},
 /area/icemoon/surface/outdoors/nospawn)
 "nmA" = (
 /obj/structure/cable,
@@ -19551,6 +19561,10 @@
 	dir = 1
 	},
 /area/station/hallway/secondary/entry)
+"oqd" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/engineering/atmos/hallway)
 "oqg" = (
 /obj/structure/bed/dogbed/ian,
 /mob/living/basic/pet/dog/corgi/ian{
@@ -20561,7 +20575,6 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/construction,
-/obj/effect/landmark/navigate_destination/atmos,
 /obj/effect/landmark/navigate_destination/engineering,
 /obj/effect/mapping_helpers/airlock/access/any/command/ai_upload,
 /turf/open/floor/iron,
@@ -23052,6 +23065,10 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/pod,
 /area/station/hallway/secondary/exit/departure_lounge)
+"qJo" = (
+/obj/effect/landmark/navigate_destination/atmos,
+/turf/open/floor/iron,
+/area/station/engineering/atmos/hallway)
 "qJs" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/blue/opposingcorners{
@@ -30325,6 +30342,9 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/engine/hull/reinforced/planetary/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"vWJ" = (
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos/hallway)
 "vWL" = (
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 1
@@ -144717,11 +144737,11 @@ pgA
 pgA
 pgA
 rKf
-rKf
-rKf
-rKf
-rKf
-rKf
+vWJ
+vWJ
+oqd
+qJo
+vWJ
 wIp
 wIp
 ctr
@@ -144974,11 +144994,11 @@ pgA
 pgA
 pgA
 pgA
-pgA
-pgA
-pgA
-pgA
-pgA
+vWJ
+mfw
+mfw
+mfw
+mfw
 wIp
 ngN
 rVJ
@@ -145222,20 +145242,20 @@ pgA
 pgA
 pgA
 pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
+vWJ
+vWJ
+oqd
+oqd
+vWJ
+vWJ
+oqd
+oqd
+vWJ
+vWJ
+mfw
+mfw
+mfw
+mfw
 wIp
 pTN
 dnn
@@ -145479,20 +145499,20 @@ pgA
 pgA
 pgA
 pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+oqd
+mfw
+mfw
+mfw
+mfw
 wIp
 pTN
 dnn
@@ -145736,20 +145756,20 @@ pgA
 pgA
 pgA
 pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
+fqk
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
+mfw
 wIp
 pTN
 dnn
@@ -145993,20 +146013,20 @@ pgA
 pgA
 pgA
 pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
-pgA
+vWJ
+vWJ
+oqd
+oqd
+vWJ
+vWJ
+oqd
+oqd
+vWJ
+vWJ
+mfw
+mfw
+mfw
+mfw
 wIp
 pTN
 dnn
@@ -146259,11 +146279,11 @@ pgA
 pgA
 pgA
 pgA
-pgA
-pgA
-pgA
-pgA
-pgA
+vWJ
+vWJ
+vWJ
+vWJ
+vWJ
 wIp
 pTN
 dnn
@@ -224522,10 +224542,10 @@ yav
 yav
 yav
 yav
-gUF
-gUF
-gUF
-gUF
+kMt
+kMt
+kMt
+kMt
 yav
 yav
 yav
@@ -224779,7 +224799,7 @@ yav
 yav
 yav
 yav
-gUF
+kMt
 jfd
 rIC
 iRR
@@ -225035,8 +225055,8 @@ yav
 yav
 yav
 yav
-gUF
-gUF
+kMt
+kMt
 lsv
 vXY
 cEQ
@@ -225292,7 +225312,7 @@ yav
 yav
 yav
 yav
-gUF
+kMt
 dli
 nmh
 rZs
@@ -225549,7 +225569,7 @@ yav
 yav
 yav
 yav
-gUF
+kMt
 srU
 lrG
 oUV
@@ -225806,7 +225826,7 @@ yav
 yav
 yav
 yav
-gUF
+kMt
 dAY
 mKN
 vXY
@@ -226063,7 +226083,7 @@ yav
 yav
 yav
 yav
-gUF
+kMt
 guy
 mvI
 pgA
