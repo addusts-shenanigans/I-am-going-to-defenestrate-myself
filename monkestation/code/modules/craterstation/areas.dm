@@ -58,3 +58,6 @@
 
 /area/station/hallway/secondary/exit/tram/east
 	name = "Departures Tram Line Eastern Station"
+
+/area/station/engineering/atmos/firestation
+	name = "Fire Station"
