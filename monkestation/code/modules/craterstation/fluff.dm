@@ -108,3 +108,14 @@
 	tguitheme = "nanotrasen"
 	content = list("<center><b>WARNING: SYSTEM LOCKED</b><BR>The tram maintenance system is currently locked. Reason: Tram in active service.</center>")
 	upperinfo = "Tram Controller 3.11 - Property of Nanotrasen Corporation"
+
+/obj/item/clothing/suit/armor/vest/fake
+	name = "fake armor vest"
+	desc = "A flimsy, cheap replica of an armor vest."
+	armor_type = null //yeah lmao fuck you
+
+/obj/item/clothing/head/collectable/swat/nt
+	name = "collectable nanotrasen SWAT helmet"
+	desc = "A version of the collectable SWAT helmet with Nanotrasen's insignia replacing that of the Syndicate."
+	icon_state = "swat"
+	inhand_icon_state = "swat_helmet"
