@@ -9,6 +9,9 @@
 /obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/iron/large,
 /area/shuttle/escape)
+"aJ" = (
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/escape)
 "aT" = (
 /obj/structure/closet/emcloset/wall/directional/east,
 /obj/machinery/light/floor/has_bulb,
@@ -109,11 +112,9 @@
 /area/shuttle/escape)
 "he" = (
 /obj/machinery/power/rtg/advanced,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "hz" = (
@@ -126,10 +127,10 @@
 	pixel_x = 6;
 	pixel_y = -24
 	},
+/obj/machinery/vending/wallmed/directional/west,
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "hI" = (
-/obj/structure/cable,
 /obj/structure/closet/crate/large/import,
 /obj/item/storage/box/lights/mixed,
 /obj/item/storage/box/lights/bulbs,
@@ -142,7 +143,8 @@
 	id = "crater_emergency_cargo_left";
 	name = "Cargo Door"
 	},
-/turf/open/floor/iron,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
 /area/shuttle/escape)
 "ij" = (
 /obj/structure/sign/warning/vacuum/external/directional/west,
@@ -171,8 +173,13 @@
 	dir = 4
 	},
 /obj/machinery/light/directional/west,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape/brig)
+"jk" = (
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/escape)
 "jY" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
@@ -202,12 +209,27 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "lf" = (
-/obj/structure/cable,
+/obj/structure/closet/crate{
+	name = "emergency supplies crate"
+	},
+/obj/item/storage/toolbox/emergency,
+/obj/item/storage/toolbox/emergency,
+/obj/item/flashlight/flare{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/flashlight/flare{
+	pixel_x = -6;
+	pixel_y = -2
+	},
+/obj/item/crowbar,
+/obj/item/wrench,
+/obj/item/radio,
 /turf/open/floor/iron/large,
 /area/shuttle/escape)
 "lm" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
 "ln" = (
 /obj/machinery/door/airlock/shuttle{
@@ -236,7 +258,7 @@
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "lN" = (
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
 "me" = (
 /obj/structure/cable,
@@ -254,11 +276,16 @@
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
 /area/shuttle/escape)
+"mE" = (
+/obj/machinery/vending/wallmed/directional/east,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/escape)
 "nj" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape/brig)
 "nD" = (
 /obj/effect/decal/cleanable/dirt,
@@ -279,6 +306,7 @@
 "pi" = (
 /obj/structure/cable,
 /obj/machinery/light/directional/south,
+/obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "pn" = (
@@ -316,6 +344,7 @@
 /area/shuttle/escape)
 "qQ" = (
 /obj/structure/table/optable,
+/obj/machinery/defibrillator_mount/loaded/directional/east,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
 "rf" = (
@@ -332,8 +361,16 @@
 /area/shuttle/escape)
 "rz" = (
 /obj/structure/chair/comfy/shuttle,
-/turf/open/floor/mineral/plastitanium/red,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape/brig)
+"rB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/vending/wallmed/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/escape)
 "sb" = (
 /turf/template_noop,
 /area/template_noop)
@@ -397,8 +434,8 @@
 /turf/open/floor/plating,
 /area/shuttle/escape/brig)
 "vS" = (
-/obj/item/surgery_tray/deployed,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
 /area/shuttle/escape)
 "vW" = (
 /obj/machinery/computer/operating{
@@ -410,6 +447,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/radiation/directional/south,
 /obj/structure/table/reinforced/titaniumglass,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "wB" = (
@@ -422,6 +462,7 @@
 /obj/item/clothing/mask/gas,
 /obj/item/tank/internals/oxygen,
 /obj/item/tank/internals/oxygen,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "yq" = (
@@ -435,6 +476,7 @@
 /area/shuttle/escape)
 "yM" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "zc" = (
@@ -485,12 +527,13 @@
 	pixel_x = 5;
 	pixel_y = 0
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
 "BW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/structure/closet/emcloset,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "Ca" = (
@@ -515,6 +558,10 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/escape)
+"CF" = (
+/obj/machinery/vending/wallmed/directional/south,
+/turf/open/floor/iron,
+/area/shuttle/escape)
 "CL" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 8
@@ -536,6 +583,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/structure/closet/firecloset,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "EE" = (
@@ -555,6 +603,7 @@
 /obj/item/flashlight/lantern/rayne,
 /obj/item/flashlight/lantern/rayne,
 /obj/machinery/light/small/directional/west,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "Fa" = (
@@ -578,6 +627,9 @@
 "FG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/radiation/directional/south,
+/obj/structure/closet/toolcloset,
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "FI" = (
@@ -623,6 +675,10 @@
 "Hz" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/escape/brig)
+"Ic" = (
+/obj/structure/extinguisher_cabinet/directional/west,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/escape/brig)
 "If" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/escape/brig)
@@ -643,8 +699,9 @@
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "IL" = (
-/obj/machinery/vending/medical,
 /obj/machinery/light/directional/east,
+/obj/item/surgery_tray/deployed,
+/obj/structure/table/reinforced/titaniumglass,
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
 "IN" = (
@@ -670,6 +727,13 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"JT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/vending/wallmed/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/escape)
 "Kk" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Emergency Shuttle Airlock"
@@ -684,6 +748,14 @@
 	cycle_id = "crater_evac_fore_left_airlock"
 	},
 /turf/open/floor/plating,
+/area/shuttle/escape)
+"Kl" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/wood,
 /area/shuttle/escape)
 "Ku" = (
 /obj/machinery/door/airlock/shuttle{
@@ -710,7 +782,8 @@
 	id = "crater_emergency_cargo_right";
 	name = "Cargo Door"
 	},
-/turf/open/floor/iron,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
 /area/shuttle/escape)
 "LY" = (
 /obj/machinery/light/directional/west,
@@ -732,12 +805,12 @@
 /obj/machinery/computer/records/security{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
 "Oi" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/light/directional/east,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/escape/brig)
 "Oq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -745,6 +818,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "OT" = (
@@ -783,6 +857,30 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
+/area/shuttle/escape)
+"RL" = (
+/obj/structure/closet/crate/medical,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/o2{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/healthanalyzer{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/lazarus_injector,
+/mob/living/basic/bot/medbot{
+	name = "\improper emergency medibot";
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/box/corners,
+/turf/open/floor/iron/large,
 /area/shuttle/escape)
 "SQ" = (
 /obj/effect/turf_decal/box/corners{
@@ -937,7 +1035,8 @@
 /area/shuttle/escape)
 "Zj" = (
 /obj/machinery/light/directional/south,
-/turf/open/floor/iron,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
 /area/shuttle/escape)
 "Zo" = (
 /obj/structure/sign/warning/secure_area/directional/west,
@@ -1054,13 +1153,13 @@ LZ
 zZ
 cw
 cn
-cw
+CF
 eK
 MY
 aT
 MY
 eK
-Ww
+JT
 Ww
 Ww
 eK
@@ -1084,7 +1183,7 @@ vy
 Hz
 Hz
 Hz
-cw
+jk
 Hw
 Qf
 eK
@@ -1111,7 +1210,7 @@ Yq
 rz
 lN
 lN
-lN
+Ic
 lN
 lN
 BP
@@ -1124,9 +1223,9 @@ cw
 eK
 GT
 hW
-cw
-cw
-cw
+vS
+vS
+vS
 eK
 nD
 wB
@@ -1155,7 +1254,7 @@ cw
 cn
 Ca
 cn
-cw
+vS
 dE
 SQ
 Zj
@@ -1187,10 +1286,10 @@ gJ
 cn
 lB
 cn
-cw
+aJ
 pN
 OT
-cw
+vS
 eK
 Ut
 yM
@@ -1219,10 +1318,10 @@ lH
 cn
 lB
 gm
-cw
+aJ
 as
 ZJ
-cw
+vS
 eK
 Qw
 Oq
@@ -1251,10 +1350,10 @@ cn
 pi
 eK
 aU
-cn
+aJ
 lf
 hI
-cn
+vS
 YD
 nD
 yM
@@ -1267,7 +1366,7 @@ lB
 zc
 Th
 Dr
-fZ
+Kl
 eK
 Iv
 JO
@@ -1283,10 +1382,10 @@ gJ
 cn
 lB
 Ru
-cw
+aJ
 db
-OT
-cw
+RL
+vS
 eK
 nD
 yM
@@ -1315,10 +1414,10 @@ lH
 cn
 lB
 cn
-cw
+aJ
 VD
 CL
-cw
+vS
 eK
 Ut
 yM
@@ -1334,7 +1433,7 @@ iE
 pz
 pC
 nZ
-vS
+nZ
 nZ
 nZ
 LY
@@ -1347,7 +1446,7 @@ cw
 cn
 Ca
 cn
-cw
+vS
 pN
 WF
 Zj
@@ -1368,7 +1467,7 @@ pC
 nZ
 nZ
 nZ
-nZ
+mE
 nZ
 ch
 lB
@@ -1380,9 +1479,9 @@ cw
 eK
 GT
 Lk
-cw
-cw
-cw
+vS
+vS
+vS
 eK
 Wv
 TN
@@ -1404,7 +1503,7 @@ eK
 Yu
 eK
 eK
-cw
+jk
 me
 sH
 eK
@@ -1438,13 +1537,13 @@ Jh
 pn
 cw
 cn
-cw
+CF
 eK
 MY
 EE
 MY
 eK
-kz
+rB
 kz
 kz
 eK
