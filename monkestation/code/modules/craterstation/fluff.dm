@@ -100,7 +100,7 @@
 	tguitheme = "nanotrasen"
 	icon_screen = "supply"
 	content = list("<center><b>CONTAINER MANIFEST: NO. 6</center></b> <BR> <BR> <b>ORIGIN:</b> JCSS LONDON MATERIALS RESERVE <BR> <b>CLASS:</b> STANDARD (20) KOSMOSLOGISTIKA <BR> <b>CONTENTS:</b> 200x STEEL SHEETS, 100x GLASS SHEETS, 50x REINFORCED GLASS, 50x PLLASTEEL, 2x PORTABLE STEW TANK <BR> <BR> <b>OWNER:</b> JOHNSON AND CO ARCHITECTURE <BR> <b>DESTINATION:</b> NTO. 13 'CRATER' CONSTRUCTION SITE")
-	upperinfo = "Signed in as John Miller // Johnson and Co Architecture - ntOS 3.11"
+	upperinfo = "Signed in as John Miller // Johnson & Co Architecture - ntOS 3.11"
 
 /obj/machinery/computer/terminal/craterstation/tram_maint
 	name = "tram maintenance terminal"
@@ -108,6 +108,16 @@
 	tguitheme = "nanotrasen"
 	content = list("<center><b>WARNING: SYSTEM LOCKED</b><BR>The tram maintenance system is currently locked. Reason: Tram in active service.</center>")
 	upperinfo = "Tram Controller 3.11 - Property of Nanotrasen Corporation"
+
+/obj/machinery/computer/terminal/craterstation/abadoned_warehouse_crane
+	name = "cargo crane terminal"
+	desc = "A frozen-up terminal that once controlled cargo cranes."
+	tguitheme = "nanotrasen"
+	icon_screen = "supply"
+	content = list("<center><b>FATAL ERROR</center></b> <BR> <BR> <b>WARNING:</b> MOTOR INTEGRITY COMPROMISED. PLEASE CONTACT YOUR NEAREST SERVICE TEAM.")
+	upperinfo = "Signed in as ADMIN // Johnson & Co Architecture - ntOS 3.11"
+
+//fake armour for theatre
 
 /obj/item/clothing/suit/armor/vest/fake
 	name = "fake armor vest"

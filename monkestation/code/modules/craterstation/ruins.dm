@@ -16,3 +16,11 @@
 	tguitheme = "nanotrasen"
 	content = list("<center><b>magnet_log34.tmp</b></center> <BR> <b> TIMESTAMP 18498405840 </b> 5wB <BR> <b> TIMESTAMP 18498406440 </b> 8wB <BR> <b> TIMESTAMP 18498407040 </b> 16wB <BR> <BR> <b>TIMESTAMP 18498407186</b> ALERT: CONTACT LOST - LAST RECORDED MAGNETIC FLUX IS 63wB")
 	upperinfo = "ntOS 3.11 - logscan.exe"
+
+/obj/structure/fluff/old_relay
+	name = "old communications relay"
+	desc = "An old, depowered communications array."
+	density = 1
+	icon = 'icons/obj/machines/telecomms.dmi'
+	icon_state = "relay_off"
+

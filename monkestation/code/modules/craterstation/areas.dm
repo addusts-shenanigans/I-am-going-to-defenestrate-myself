@@ -61,3 +61,9 @@
 
 /area/station/engineering/atmos/firestation
 	name = "Fire Station"
+
+/area/station/engineering/atmos/lower
+	name = "Lower Atmospherics"
+
+/area/station/cargo/warehouse/abandoned
+	name = "Abandoned Warehouse"
