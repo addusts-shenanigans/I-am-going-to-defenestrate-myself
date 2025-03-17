@@ -119,10 +119,18 @@
 
 //fake armour for theatre
 
-/obj/item/clothing/suit/armor/vest/fake
+/obj/item/clothing/suit/costume/fake_armor
 	name = "fake armor vest"
 	desc = "A flimsy, cheap replica of an armor vest."
-	armor_type = null //yeah lmao fuck you
+	icon_state = "armoralt"
+	inhand_icon_state = "armor"
+	blood_overlay_type = "armor"
+	dog_fashion = /datum/dog_fashion/back/armorvest
+	icon = 'icons/obj/clothing/suits/armor.dmi'
+	worn_icon = 'icons/mob/clothing/suits/armor.dmi'
+	allowed = null
+	body_parts_covered = CHEST
+
 
 /obj/item/clothing/head/collectable/swat/nt
 	name = "collectable nanotrasen SWAT helmet"
