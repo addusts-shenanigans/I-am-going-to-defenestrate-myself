@@ -327,6 +327,15 @@
 /obj/structure/window/spawner/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
+"ajF" = (
+/obj/effect/spawner/structure/window,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "lawyer_shutters";
+	name = "Law Office Shutters";
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/service/lawoffice)
 "ajK" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -391,6 +400,12 @@
 "alr" = (
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
+"alt" = (
+/obj/effect/turf_decal/arrows/red{
+	dir = 8
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "aly" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
@@ -427,6 +442,13 @@
 	},
 /turf/open/floor/plating,
 /area/station/service/hydroponics)
+"amh" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
+	},
+/obj/machinery/vending/imported/yangyu,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay)
 "ami" = (
 /obj/machinery/vending/imported,
 /obj/machinery/light/directional/west,
@@ -751,6 +773,18 @@
 	},
 /turf/open/floor/wood,
 /area/station/command/meeting_room)
+"awz" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/structure/window/spawner/directional/north,
+/obj/structure/window/spawner/directional/west,
+/obj/machinery/conveyor{
+	id = "packageExternal"
+	},
+/obj/structure/disposaloutlet,
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "awS" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -1086,7 +1120,7 @@
 "aFU" = (
 /obj/structure/grille/broken,
 /obj/effect/decal/cleanable/glass,
-/turf/open/floor/material/meat,
+/turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "aGz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4104,6 +4138,15 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/station/science/lab)
+"cyU" = (
+/obj/effect/spawner/structure/window,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "lawyer_shutters";
+	name = "Law Office Shutters";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/service/lawoffice)
 "cyY" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/engine_access,
@@ -4846,6 +4889,11 @@
 	},
 /turf/open/floor/plating/icemoon,
 /area/station/cargo/warehouse/abandoned)
+"cVX" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/service/lawyer,
+/turf/open/floor/plating,
+/area/station/maintenance/port/aft)
 "cWi" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner,
 /obj/structure/disposalpipe/segment{
@@ -6454,6 +6502,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "dTF" = (
@@ -7201,6 +7250,10 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/station/command/heads_quarters/blueshield)
+"eqk" = (
+/obj/item/stack/rods,
+/turf/open/floor/material/meat,
+/area/station/maintenance/port/fore)
 "eqI" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
@@ -7606,6 +7659,12 @@
 /obj/machinery/vending/imported/yangyu,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry/outpost)
+"eDL" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "eEi" = (
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible,
 /obj/effect/turf_decal/stripes/line{
@@ -10724,11 +10783,13 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/ai_monitored/turret_protected/ai_upload)
 "grA" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "packageSort2"
 	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
+/obj/structure/window/spawner/directional/north,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "grE" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/snowed/icemoon,
@@ -11354,6 +11415,12 @@
 "gJS" = (
 /turf/open/floor/iron/dark,
 /area/station/command/cc_dock)
+"gKd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/shard,
+/obj/item/stack/rods,
+/turf/open/floor/iron/white,
+/area/station/maintenance/port/fore)
 "gKg" = (
 /obj/structure/table/wood/fancy/blue,
 /obj/item/radio/off{
@@ -12806,6 +12873,11 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/station/science/ordnance/testlab)
+"hBg" = (
+/obj/structure/meateor_fluff/eyeball,
+/obj/item/stack/rods,
+/turf/open/floor/material/meat,
+/area/station/maintenance/port/fore)
 "hBn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/closed/wall/r_wall,
@@ -14667,6 +14739,16 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
+"iHb" = (
+/obj/machinery/firealarm/directional/east,
+/obj/structure/bed/dogbed,
+/mob/living/basic/pet/dog/bullterrier{
+	name = "Walter";
+	real_name = "Walter";
+	desc = "It's Walter!"
+	},
+/turf/open/floor/wood,
+/area/station/service/lawoffice)
 "iHg" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -14803,6 +14885,10 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
+"iKa" = (
+/obj/structure/filingcabinet/employment,
+/turf/open/floor/wood,
+/area/station/service/lawoffice)
 "iKb" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Temporary Holding Cell"
@@ -15928,10 +16014,6 @@
 	id = "packageExternal"
 	},
 /obj/structure/plasticflaps/opaque,
-/obj/machinery/door/window/left/directional/west{
-	name = "Crate Security Door";
-	req_access = list("shipping")
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "jpE" = (
@@ -16359,6 +16441,10 @@
 /obj/structure/chair/comfy/teal,
 /turf/open/floor/wood,
 /area/station/command/bridge)
+"jDT" = (
+/obj/machinery/vending/imported/tizirian,
+/turf/open/floor/iron/white,
+/area/station/medical/pharmacy)
 "jEd" = (
 /obj/effect/spawner/random/techstorage/command_all,
 /obj/structure/rack,
@@ -17272,6 +17358,7 @@
 	},
 /obj/structure/barricade/wooden/crude,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/mapping_helpers/airlock/welded,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "kdl" = (
@@ -17322,11 +17409,9 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig/entrance)
 "kdS" = (
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/iron/white,
+/area/station/medical/pharmacy)
 "kem" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security/glass{
@@ -18626,6 +18711,13 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/command/heads_quarters/nt_rep)
+"kPl" = (
+/obj/item/toy/plush/lizard_plushie{
+	name = "Freezes-to-Death";
+	desc = "Looking at the amount of ice and snow built up on this poor thing; you can only concur with its name."
+	},
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "kPq" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -26437,10 +26529,9 @@
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "puh" = (
-/obj/structure/grille/broken,
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
-/turf/open/floor/plating,
+/turf/open/floor/material/meat,
 /area/station/maintenance/port/fore)
 "puj" = (
 /obj/machinery/camera/directional/west{
@@ -26808,6 +26899,16 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
+"pFR" = (
+/obj/machinery/door/window/left/directional/west{
+	name = "Crate Returns Security Door";
+	req_access = list("shipping")
+	},
+/obj/machinery/conveyor{
+	id = "packageExternal"
+	},
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "pGb" = (
 /obj/machinery/button/elevator/directional/north{
 	id = "arrivals_elevator"
@@ -26967,6 +27068,10 @@
 	},
 /turf/open/floor/stone,
 /area/station/commons/lounge/public_house)
+"pKL" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/material/meat,
+/area/station/maintenance/port/fore)
 "pKM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
@@ -28137,6 +28242,11 @@
 	dir = 8;
 	id = "packageSort2"
 	},
+/obj/machinery/door/window/left/directional/west{
+	dir = 1;
+	name = "Crate Security Door";
+	req_access = list("shipping")
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "quB" = (
@@ -29168,6 +29278,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/electrical)
+"qXX" = (
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/iron/white,
+/area/station/medical/pharmacy)
 "qXZ" = (
 /obj/structure/table,
 /obj/item/paper/pamphlet/radstorm,
@@ -30454,6 +30568,10 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/plating/icemoon,
 /area/station/engineering/atmos)
+"rFN" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/white,
+/area/station/medical/pharmacy)
 "rGa" = (
 /turf/open/openspace,
 /area/station/engineering/lobby)
@@ -31486,6 +31604,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 9
 	},
+/obj/machinery/vending/imported/tizirian,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay)
 "sjg" = (
@@ -31632,6 +31751,13 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/explab)
+"smV" = (
+/obj/effect/mapping_helpers/airlock/access/all/service/lawyer,
+/obj/machinery/door/airlock{
+	name = "Law Office"
+	},
+/turf/open/floor/wood,
+/area/station/service/lawoffice)
 "snc" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -34339,6 +34465,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/structure/window/spawner/directional/north,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "tRp" = (
@@ -35275,6 +35402,13 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/smooth_large,
 /area/station/science/ordnance/testlab)
+"uwD" = (
+/obj/machinery/vending/wardrobe/law_wardrobe,
+/obj/machinery/camera/directional/east{
+	c_tag = "Law Office"
+	},
+/turf/open/floor/wood,
+/area/station/service/lawoffice)
 "uwE" = (
 /obj/structure/table/wood,
 /obj/machinery/light_switch/directional/south,
@@ -41108,6 +41242,14 @@
 	},
 /turf/open/floor/plating,
 /area/station/ai_monitored/turret_protected/aisat/foyer)
+"xSM" = (
+/obj/machinery/button/door/directional/south{
+	id = "lawyer_shutters";
+	name = "law office shutter control";
+	req_access = list("lawyer")
+	},
+/turf/open/floor/wood,
+/area/station/service/lawoffice)
 "xSP" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -59089,7 +59231,7 @@ pmw
 xom
 iJl
 iKb
-tOJ
+gKd
 jcz
 upi
 upi
@@ -59348,7 +59490,7 @@ sEB
 qDT
 gAS
 tOJ
-hTV
+hBg
 upi
 qDT
 ybd
@@ -59605,7 +59747,7 @@ qDT
 qDT
 icn
 aFU
-aFU
+pKL
 puh
 qDT
 mrJ
@@ -59860,10 +60002,10 @@ qDT
 upi
 wUA
 jip
-jip
+eqk
 jip
 aRV
-hTV
+hBg
 qDT
 mrJ
 efD
@@ -66843,7 +66985,7 @@ aIT
 fBE
 fnD
 fnD
-aIT
+fBE
 fBE
 fBE
 fBE
@@ -67100,9 +67242,9 @@ aIT
 fBE
 fnD
 aIT
+aIT
+aIT
 fBE
-fBE
-crc
 crc
 crc
 pWC
@@ -67358,8 +67500,8 @@ maZ
 fnD
 aIT
 fBE
-crc
-crc
+aIT
+fBE
 crc
 crc
 pWC
@@ -67615,8 +67757,8 @@ fBE
 fnD
 fBE
 fBE
-crc
-crc
+aIT
+fBE
 crc
 crc
 pWC
@@ -67871,9 +68013,9 @@ duU
 duU
 kEX
 duU
-crc
-crc
-crc
+aIT
+aIT
+fBE
 crc
 crc
 pWC
@@ -68128,9 +68270,9 @@ ecv
 ecv
 ecv
 duU
-crc
-crc
-crc
+aIT
+aIT
+fBE
 crc
 crc
 pWC
@@ -68385,9 +68527,9 @@ fhs
 glR
 ecv
 duU
-crc
-crc
-crc
+aIT
+aIT
+fBE
 crc
 crc
 pWC
@@ -68643,8 +68785,8 @@ duU
 ecv
 duU
 duU
-crc
-crc
+aIT
+fBE
 crc
 crc
 pWC
@@ -68900,8 +69042,8 @@ fhs
 ecv
 krp
 duU
-crc
-crc
+aIT
+fBE
 crc
 crc
 crc
@@ -69157,8 +69299,8 @@ krp
 ecv
 iun
 duU
-crc
-crc
+aIT
+fBE
 crc
 crc
 crc
@@ -69414,8 +69556,8 @@ fhs
 ecv
 fhs
 duU
-crc
-crc
+aIT
+fBE
 crc
 crc
 crc
@@ -69671,8 +69813,8 @@ fhs
 ecv
 krp
 duU
-crc
-crc
+aIT
+fBE
 crc
 crc
 crc
@@ -69928,8 +70070,8 @@ duU
 ecv
 duU
 duU
-crc
-crc
+aIT
+fBE
 crc
 crc
 crc
@@ -70184,9 +70326,9 @@ fhs
 kTZ
 ecv
 duU
-crc
-crc
-crc
+aIT
+aIT
+fBE
 crc
 crc
 crc
@@ -70441,10 +70583,10 @@ ecv
 ecv
 ecv
 duU
-crc
-crc
-crc
-crc
+aIT
+aIT
+fBE
+fBE
 crc
 crc
 crc
@@ -70698,10 +70840,10 @@ wuh
 wuh
 wuh
 wuh
-wuh
-crc
-crc
-crc
+fBE
+aIT
+aIT
+fBE
 crc
 crc
 crc
@@ -70955,10 +71097,10 @@ qux
 qux
 qux
 qux
-wuh
-crc
-crc
-crc
+cVX
+aIT
+aIT
+fBE
 crc
 crc
 crc
@@ -71206,16 +71348,16 @@ lMl
 seu
 tvD
 tvD
-wuh
+ajF
 qux
 qux
 qux
 qux
-qux
-wuh
-crc
-crc
-crc
+xSM
+fBE
+aIT
+aIT
+fBE
 crc
 crc
 crc
@@ -71463,16 +71605,16 @@ lMl
 seu
 tvD
 tvD
-wuh
+ajF
 qux
 qux
 qux
 qux
 qux
 wuh
-crc
-crc
-crc
+fBE
+fBE
+fBE
 crc
 crc
 crc
@@ -71721,9 +71863,9 @@ seu
 tvD
 tvD
 wuh
-qux
-qux
-qux
+uwD
+iKa
+iHb
 qux
 qux
 wuh
@@ -71979,9 +72121,9 @@ tWe
 tvD
 wuh
 wuh
+cyU
 wuh
-wuh
-qux
+smV
 wuh
 wuh
 oEO
@@ -123625,8 +123767,8 @@ dTt
 jYn
 xTA
 pgA
-pgA
-pgA
+ewN
+ewN
 pgA
 pgA
 xpA
@@ -123878,12 +124020,12 @@ ghr
 iLh
 xTA
 puD
-quy
+grA
 tvw
 xTA
 pgA
-pgA
-pgA
+ewN
+ewN
 pgA
 pgA
 pgA
@@ -124135,10 +124277,12 @@ aTV
 fNF
 xTA
 puD
-quy
+grA
 tvw
 xTA
 pgA
+ewN
+ewN
 pgA
 pgA
 pgA
@@ -124146,9 +124290,7 @@ pgA
 pgA
 pgA
 pgA
-pgA
-pgA
-pgA
+kPl
 pgA
 pgA
 pgA
@@ -124396,8 +124538,8 @@ quy
 tvw
 xTA
 pgA
-pgA
-pgA
+ewN
+ewN
 pgA
 pgA
 pgA
@@ -124649,11 +124791,11 @@ ghr
 ghr
 gwV
 lwK
-quy
+grA
 tvw
 xTA
 pgA
-pgA
+ewN
 pgA
 pgA
 pgA
@@ -124906,11 +125048,11 @@ ghr
 iLh
 xTA
 jqG
-quy
+grA
 tvw
 xTA
 pgA
-pgA
+ewN
 pgA
 xpA
 pgA
@@ -125167,7 +125309,7 @@ tRj
 tvw
 xTA
 pgA
-pgA
+ewN
 pgA
 pgA
 pgA
@@ -125425,7 +125567,7 @@ jps
 xTA
 pgA
 pgA
-pgA
+ewN
 pgA
 pgA
 pgA
@@ -125678,11 +125820,11 @@ ejA
 hep
 hep
 hep
-dsC
+jps
+gUF
 pgA
-pgA
-pgA
-pgA
+ewN
+ewN
 pgA
 pgA
 xpA
@@ -125939,7 +126081,7 @@ dsC
 pgA
 pgA
 pgA
-pgA
+ewN
 pgA
 pgA
 pgA
@@ -126192,11 +126334,11 @@ ljL
 ljL
 tAR
 hep
+alt
 pgA
 pgA
-pgA
-pgA
-pgA
+ewN
+ewN
 pgA
 pgA
 pgA
@@ -126449,10 +126591,10 @@ ljL
 ljL
 wAc
 hep
+ewN
 pgA
-pgA
-pgA
-pgA
+ewN
+ewN
 pgA
 pgA
 pgA
@@ -126707,8 +126849,8 @@ tAR
 wAc
 hep
 ewN
-pgA
-pgA
+ewN
+ewN
 pgA
 pgA
 pgA
@@ -129008,7 +129150,7 @@ rzn
 rzn
 psu
 gkk
-gkk
+rFN
 gkk
 wns
 wns
@@ -129524,7 +129666,7 @@ qtD
 gkk
 gkk
 gkk
-gkk
+qXX
 wns
 pgA
 pgA
@@ -129781,7 +129923,7 @@ wns
 wns
 jRj
 gkk
-gkk
+kdS
 wns
 pgA
 pgA
@@ -130038,7 +130180,7 @@ gkk
 tmj
 gkk
 gkk
-gkk
+jDT
 wns
 pgA
 pgA
@@ -132090,7 +132232,7 @@ mrA
 gpf
 mkZ
 uSD
-wyh
+amh
 izS
 eKQ
 sUY
@@ -185293,7 +185435,7 @@ smz
 tzW
 tzW
 tLz
-kdS
+qsJ
 qdR
 qsJ
 qdR
@@ -185550,13 +185692,13 @@ wsR
 dHK
 dHK
 wsR
-grA
-oeI
-oeI
-oeI
-oeI
-oeI
-oeI
+qsJ
+qsJ
+qsJ
+qsJ
+qsJ
+qsJ
+eDL
 oeI
 phg
 seE
@@ -185813,8 +185955,8 @@ qsJ
 qsJ
 mfg
 fdl
-qsJ
-qsJ
+awz
+pFR
 nsD
 nsD
 seT
@@ -187864,9 +188006,9 @@ nKT
 pKS
 pKS
 pKS
-pKS
-pKS
-pKS
+rBU
+rBU
+rBU
 tcJ
 rOd
 iLh
@@ -191214,8 +191356,8 @@ njs
 rBU
 rBU
 rBU
-pKS
-pKS
+rBU
+rBU
 pKS
 pKS
 pKS
