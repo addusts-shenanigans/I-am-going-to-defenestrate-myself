@@ -2740,6 +2740,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/command/bridge)
 "bDM" = (
@@ -2902,6 +2903,7 @@
 /obj/structure/closet/l3closet/scientist,
 /obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/white,
 /area/station/maintenance/port/fore)
 "bJM" = (
@@ -3688,11 +3690,7 @@
 /area/icemoon/surface/outdoors/nospawn)
 "cjx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 8;
-	layer = 4.1
-	},
-/turf/open/floor/pod/light,
+/turf/open/openspace,
 /area/station/science/lower)
 "cjB" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -9770,6 +9768,7 @@
 	name = "Research Director's Office"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/rd,
+/obj/structure/cable,
 /turf/open/floor/pod/light,
 /area/station/command/heads_quarters/rd)
 "fNj" = (
@@ -15184,18 +15183,11 @@
 /turf/open/floor/plating,
 /area/station/command/teleporter)
 "iQk" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/wood/corner,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/station/command/heads_quarters/blueshield)
+/obj/structure/chair,
+/obj/effect/landmark/start/scientist,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/pod/light,
+/area/station/maintenance/radshelter/sci)
 "iQq" = (
 /obj/machinery/door/airlock/maintenance/external/glass{
 	name = "Winter Supplies Lockup"
@@ -15622,7 +15614,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard,
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/white,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "jcF" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -17312,15 +17305,9 @@
 /turf/open/misc/dirt/station,
 /area/icemoon/underground/explored)
 "jYX" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "Bridge"
-	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/command/general,
-/obj/effect/turf_decal/siding/wood/end,
-/obj/structure/cable,
-/turf/open/floor/wood,
-/area/station/command/bridge)
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/pod/light,
+/area/station/science/lower)
 "jYZ" = (
 /obj/machinery/light/small/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -18188,6 +18175,7 @@
 	pixel_x = 1;
 	pixel_y = 6
 	},
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/cyan,
 /area/station/command/heads_quarters/blueshield)
 "kxR" = (
@@ -20012,7 +20000,6 @@
 /area/station/maintenance/starboard/lesser)
 "lBf" = (
 /obj/machinery/modular_computer/preset/command,
-/obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/cyan,
 /area/station/command/heads_quarters/blueshield)
 "lBw" = (
@@ -22439,6 +22426,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard,
 /obj/item/stack/rods,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/white,
 /area/station/maintenance/port/fore)
 "ncB" = (
@@ -22453,6 +22441,10 @@
 /area/station/hallway/primary/aft)
 "ncQ" = (
 /obj/structure/stairs/south,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
 /turf/open/floor/pod/light,
 /area/station/science/lower)
 "ncX" = (
@@ -24106,6 +24098,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/pod/light,
 /area/station/maintenance/radshelter/sci)
 "oaZ" = (
@@ -26758,6 +26751,7 @@
 /area/station/engineering/supermatter/room)
 "pvN" = (
 /obj/structure/table/reinforced,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/pod/light,
 /area/station/maintenance/radshelter/sci)
 "pwz" = (
@@ -28775,6 +28769,7 @@
 "qCT" = (
 /obj/structure/grille/broken,
 /obj/effect/decal/cleanable/glass,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "qCW" = (
@@ -29774,6 +29769,12 @@
 "res" = (
 /turf/open/floor/pod/light,
 /area/station/maintenance/radshelter/sci)
+"ret" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/pod/light,
+/area/station/science/lower)
 "reB" = (
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
@@ -31574,7 +31575,6 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/machinery/door/airlock/maintenance_hatch,
-/obj/structure/cable,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
@@ -33446,6 +33446,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/command/bridge)
 "thC" = (
@@ -34092,6 +34093,12 @@
 "tzW" = (
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
+"tAl" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/pod/light,
+/area/station/science/lower)
 "tAR" = (
 /turf/open/floor/iron/dark,
 /area/station/cargo/lobby)
@@ -34592,7 +34599,8 @@
 "tOJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard,
-/turf/open/floor/iron/white,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "tOL" = (
 /obj/structure/trash_pile,
@@ -38413,6 +38421,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/command/bridge)
 "wck" = (
@@ -39574,6 +39583,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood,
+/obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/command/bridge)
 "wIR" = (
@@ -40223,7 +40233,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "crater_blueshield"
 	},
-/obj/structure/cable,
 /obj/machinery/door/airlock/corporate/glass{
 	name = "Blueshield's Office"
 	},
@@ -41146,7 +41155,9 @@
 /area/station/commons/dorms/bunkhouse/floor1)
 "xEV" = (
 /obj/structure/cable/multilayer/multiz,
-/turf/closed/wall,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/plating,
 /area/station/command/heads_quarters/blueshield)
 "xEW" = (
 /obj/structure/cable,
@@ -41725,7 +41736,7 @@
 /area/station/command/heads_quarters/nt_rep)
 "xXy" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Permanent Confinement Facility maintenance access"
+	name = "Permanent Confinement Facility Maintenance Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /turf/open/floor/plating,
@@ -57202,7 +57213,7 @@ abf
 bal
 bal
 fNd
-rXn
+pYJ
 pYJ
 rXn
 evo
@@ -57968,7 +57979,7 @@ crc
 crc
 crc
 jYJ
-rXn
+jYX
 ncQ
 qKr
 nVs
@@ -58997,7 +59008,7 @@ crc
 crc
 crc
 kbm
-wci
+iQk
 pYQ
 pYQ
 wKG
@@ -123763,8 +123774,8 @@ vFw
 nyo
 cjx
 cjx
-rXn
-wYv
+tAl
+ret
 qAJ
 xPv
 ejG
@@ -140249,7 +140260,7 @@ pKi
 iyG
 wzV
 gLX
-jYX
+nUW
 ivx
 ivx
 tzs
@@ -141024,7 +141035,7 @@ xEV
 lBf
 uGm
 bEr
-asQ
+anR
 tXK
 jYF
 wJo
@@ -141281,7 +141292,7 @@ eCf
 iKP
 asQ
 uLw
-asQ
+anR
 uRo
 jYF
 epq
@@ -141792,10 +141803,10 @@ svs
 wcj
 thk
 nUW
-uOh
-uOh
+ivx
+ivx
 oSb
-iQk
+gTZ
 cFI
 jYF
 pgA
