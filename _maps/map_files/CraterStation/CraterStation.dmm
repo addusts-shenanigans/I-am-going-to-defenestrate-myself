@@ -2736,6 +2736,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/science/ordnance/testlab)
+"bCO" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/pod/light,
+/area/station/science/lower)
 "bDn" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -5388,7 +5392,6 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 1
 	},
-/obj/structure/cable,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
@@ -15183,11 +15186,11 @@
 /turf/open/floor/plating,
 /area/station/command/teleporter)
 "iQk" = (
-/obj/structure/chair,
-/obj/effect/landmark/start/scientist,
-/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/pod/light,
-/area/station/maintenance/radshelter/sci)
+/area/station/science/lower)
 "iQq" = (
 /obj/machinery/door/airlock/maintenance/external/glass{
 	name = "Winter Supplies Lockup"
@@ -17305,7 +17308,9 @@
 /turf/open/misc/dirt/station,
 /area/icemoon/underground/explored)
 "jYX" = (
-/obj/machinery/light/small/directional/west,
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/floor/pod/light,
 /area/station/science/lower)
 "jYZ" = (
@@ -28523,7 +28528,6 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/construction,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/engineering/storage_shared)
 "qvt" = (
@@ -29769,12 +29773,6 @@
 "res" = (
 /turf/open/floor/pod/light,
 /area/station/maintenance/radshelter/sci)
-"ret" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/pod/light,
-/area/station/science/lower)
 "reB" = (
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
@@ -30777,6 +30775,12 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
+"rEF" = (
+/obj/structure/chair,
+/obj/effect/landmark/start/scientist,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/pod/light,
+/area/station/maintenance/radshelter/sci)
 "rES" = (
 /obj/machinery/button/elevator/directional/north{
 	id = "arrivals_elevator"
@@ -34060,7 +34064,6 @@
 "tzs" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
 /obj/machinery/door/airlock/corporate{
 	id_tag = "BSdoor";
 	name = "Blueshield's Office"
@@ -34093,12 +34096,6 @@
 "tzW" = (
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
-"tAl" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/pod/light,
-/area/station/science/lower)
 "tAR" = (
 /turf/open/floor/iron/dark,
 /area/station/cargo/lobby)
@@ -57979,7 +57976,7 @@ crc
 crc
 crc
 jYJ
-jYX
+bCO
 ncQ
 qKr
 nVs
@@ -59008,7 +59005,7 @@ crc
 crc
 crc
 kbm
-iQk
+rEF
 pYQ
 pYQ
 wKG
@@ -123774,8 +123771,8 @@ vFw
 nyo
 cjx
 cjx
-tAl
-ret
+jYX
+iQk
 qAJ
 xPv
 ejG
