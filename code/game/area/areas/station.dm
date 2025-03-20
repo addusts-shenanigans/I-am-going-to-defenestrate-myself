@@ -510,7 +510,6 @@
 	mood_trait = TRAIT_EXTROVERT
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
-
 /area/station/commons/fitness
 	name = "\improper Fitness Room"
 	icon_state = "fitness"
