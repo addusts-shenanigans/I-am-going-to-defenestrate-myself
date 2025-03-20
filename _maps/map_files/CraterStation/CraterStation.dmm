@@ -2736,10 +2736,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/science/ordnance/testlab)
-"bCO" = (
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/pod/light,
-/area/station/science/lower)
 "bDn" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -5534,6 +5530,12 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/engineering/power_station)
+"dnQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/pod/light,
+/area/station/science/lower)
 "dnR" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -15186,9 +15188,9 @@
 /turf/open/floor/plating,
 /area/station/command/teleporter)
 "iQk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/light/small/directional/east,
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/floor/pod/light,
 /area/station/science/lower)
 "iQq" = (
@@ -17308,11 +17310,11 @@
 /turf/open/misc/dirt/station,
 /area/icemoon/underground/explored)
 "jYX" = (
-/obj/structure/railing{
-	dir = 1
-	},
+/obj/structure/chair,
+/obj/effect/landmark/start/scientist,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/pod/light,
-/area/station/science/lower)
+/area/station/maintenance/radshelter/sci)
 "jYZ" = (
 /obj/machinery/light/small/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -21773,6 +21775,10 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"mIH" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/pod/light,
+/area/station/science/lower)
 "mIU" = (
 /obj/machinery/camera/preset/ordnance{
 	dir = 4
@@ -27735,7 +27741,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/unres,
 /obj/structure/cable,
-/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "pZS" = (
@@ -30775,12 +30780,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/engineering/storage/tech)
-"rEF" = (
-/obj/structure/chair,
-/obj/effect/landmark/start/scientist,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/pod/light,
-/area/station/maintenance/radshelter/sci)
 "rES" = (
 /obj/machinery/button/elevator/directional/north{
 	id = "arrivals_elevator"
@@ -57976,7 +57975,7 @@ crc
 crc
 crc
 jYJ
-bCO
+mIH
 ncQ
 qKr
 nVs
@@ -59005,7 +59004,7 @@ crc
 crc
 crc
 kbm
-rEF
+jYX
 pYQ
 pYQ
 wKG
@@ -123771,8 +123770,8 @@ vFw
 nyo
 cjx
 cjx
-jYX
 iQk
+dnQ
 qAJ
 xPv
 ejG
