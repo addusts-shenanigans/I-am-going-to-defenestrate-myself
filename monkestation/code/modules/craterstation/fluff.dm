@@ -137,3 +137,11 @@
 	desc = "A version of the collectable SWAT helmet with Nanotrasen's insignia replacing that of the Syndicate."
 	icon_state = "swat"
 	inhand_icon_state = "swat_helmet"
+
+//cargo drone bay fluff hatch
+
+/obj/structure/fluff/launch_silo_hatch
+	name = "drone silo hatch"
+	desc = "A hatch for the launch silo of a planetary exploration drone bay."
+	icon = 'icons/obj/weapons/turrets.dmi'
+	icon_state = "turretCover"

@@ -24,3 +24,7 @@
 	icon = 'icons/obj/machines/telecomms.dmi'
 	icon_state = "relay_off"
 
+// CLOWN ASTEROID RUIN
+
+/area/ruin/icemoon_clown_asteroid
+	name = "Buried Asteroid"
