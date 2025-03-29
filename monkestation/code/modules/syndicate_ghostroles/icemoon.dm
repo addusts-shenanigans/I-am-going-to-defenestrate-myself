@@ -25,6 +25,9 @@
 	box = /obj/item/storage/box/survival/syndie
 	implants = list(/obj/item/implant/weapons_auth)
 
+/datum/outfit/icemoon_syndicate/post_equip(mob/living/carbon/human/syndicate, visualsOnly = FALSE) //you will not believe how many times i shot myself before i remembered to put this in
+	syndicate.faction |= ROLE_SYNDICATE
+
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/icemoon/guard
 	you_are_text = "You are a Gorlex Marauder, assigned to guard a Syndicate outpost in the frigid wastes of the icemoon."
 	prompt_name = "a Gorlex Marauders security guard"
@@ -159,6 +162,7 @@
 	icon_state = "drone_synd"
 	icon_living = "drone_synd"
 	picked = TRUE //its a modified syndicate drone chassis
+	faction = list(FACTION_NEUTRAL, ROLE_SYNDICATE)
 	health = 120
 	maxHealth = 120
 	initial_language_holder = /datum/language_holder/syndicate //they don't really need universal if all they're doing is helping the base

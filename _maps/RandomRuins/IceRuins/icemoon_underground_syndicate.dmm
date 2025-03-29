@@ -98,6 +98,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/ruin/icemoon_syndicate/communications)
+"bd" = (
+/obj/machinery/porta_turret/syndicate/depot,
+/turf/open/floor/plating/snowed/smoothed{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/ruin/icemoon_syndicate/tunnel)
 "be" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -286,10 +292,11 @@
 /turf/open/floor/engine/vacuum,
 /area/ruin/icemoon_syndicate/engineering)
 "ea" = (
-/obj/machinery/power/stirling_generator{
+/obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/underground/explored)
 "eb" = (
 /obj/machinery/door/airlock{
@@ -398,19 +405,9 @@
 /obj/item/storage/box/stockparts/deluxe,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/plasteel/fifty,
 /obj/item/reagent_containers/cup/beaker/synthflesh,
 /obj/item/circuitboard/machine/limbgrower,
 /obj/item/storage/box/beakers/bluespace,
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/plastic/five,
-/obj/item/stack/sheet/mineral/plasma/thirty,
-/obj/item/stack/sheet/mineral/silver/twenty,
-/obj/item/stack/sheet/mineral/titanium/twenty,
-/obj/item/stack/sheet/mineral/uranium/five,
-/obj/item/stack/sheet/mineral/gold/five,
-/obj/item/stack/sheet/mineral/diamond/five,
 /obj/effect/turf_decal/delivery/red,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
@@ -3068,6 +3065,10 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/ruin/icemoon_syndicate/engineering)
+"Nr" = (
+/obj/structure/flora/rock/icy/style_random,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/underground/explored)
 "Nz" = (
 /obj/machinery/door/airlock/external{
 	name = "Stirling Generator Core"
@@ -3109,7 +3110,8 @@
 /obj/item/gun/ballistic/shotgun/riot/sol/evil,
 /obj/item/storage/toolbox/guncase/skyrat/carwo_large_case/sindano/evil,
 /obj/item/gun/ballistic/automatic/sol_rifle/evil/no_mag,
-/obj/item/storage/toolbox/guncase/soviet/sakhno,
+/obj/effect/turf_decal/bot_red,
+/obj/item/gun/ballistic/rifle/boltaction/sporterized/empty,
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
 "NH" = (
@@ -3339,6 +3341,7 @@
 	network = list("icemoon_syndie");
 	c_tag = "Cargo Access Hatch"
 	},
+/obj/structure/flora/rock/icy/style_random,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/explored)
 "Rc" = (
@@ -3699,14 +3702,6 @@
 /area/ruin/icemoon_syndicate/crew)
 "WJ" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/storage/toolbox/ammobox/a762{
-	pixel_x = -7;
-	pixel_y = 11
-	},
-/obj/item/storage/toolbox/ammobox/a762{
-	pixel_x = -8;
-	pixel_y = 8
-	},
 /obj/item/ammo_box/advanced/s12gauge/rubber{
 	pixel_x = 8;
 	pixel_y = 17
@@ -3730,6 +3725,30 @@
 /obj/item/ammo_box/advanced/s12gauge/buckshot{
 	pixel_x = -14;
 	pixel_y = -1
+	},
+/obj/item/ammo_box/strilka310{
+	pixel_x = -2;
+	pixel_y = 9
+	},
+/obj/item/ammo_box/strilka310{
+	pixel_x = -12;
+	pixel_y = 14
+	},
+/obj/item/ammo_box/strilka310{
+	pixel_x = -3;
+	pixel_y = 18
+	},
+/obj/item/ammo_box/strilka310{
+	pixel_x = -11;
+	pixel_y = 16
+	},
+/obj/item/ammo_box/strilka310{
+	pixel_x = -2;
+	pixel_y = 13
+	},
+/obj/item/ammo_box/strilka310{
+	pixel_x = -12;
+	pixel_y = 12
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/icemoon_syndicate/checkpoint)
@@ -4020,7 +4039,6 @@
 	desc = "It's a storage unit for a Syndicate employee."
 	},
 /obj/machinery/light/small/directional/south,
-/obj/item/clothing/head/hats/hos/cap/syndicate,
 /obj/item/clothing/accessory/medal/gold{
 	name = "MI13 award of excellence";
 	desc = "An award rarely distributed by officers of MI13, a Syndicate member organisation responsible for intelligence. For some reason, the crest of the old United Kingdom is on the back."
@@ -4652,7 +4670,7 @@ tj
 tj
 tj
 tj
-Ua
+Nr
 qO
 FT
 WZ
@@ -4854,7 +4872,7 @@ tj
 tj
 tj
 tj
-Ua
+Nr
 MW
 MW
 MW
@@ -4933,7 +4951,7 @@ GW
 jn
 jn
 tu
-op
+bd
 aa
 aa
 aa
@@ -5335,7 +5353,7 @@ CZ
 Gd
 lL
 tj
-Ua
+Nr
 aa
 aa
 aa
@@ -5756,7 +5774,7 @@ Ua
 SZ
 Bt
 Ua
-ea
+Bt
 oN
 oN
 oN
@@ -6201,7 +6219,7 @@ Aa
 If
 QE
 ug
-op
+bd
 Aa
 Aa
 Aa
@@ -6476,7 +6494,7 @@ fr
 xJ
 Aa
 Aa
-Ua
+Nr
 Ua
 Ua
 tj
@@ -6561,7 +6579,7 @@ Mk
 Mk
 Mb
 Mk
-op
+bd
 lF
 lF
 lF
@@ -6680,7 +6698,7 @@ kw
 xJ
 xJ
 Aa
-Ua
+Nr
 Ua
 tj
 tj
@@ -6910,7 +6928,7 @@ Mk
 Mb
 Mk
 iE
-op
+bd
 lF
 lF
 lF
@@ -6963,7 +6981,7 @@ eL
 Ua
 SZ
 Ua
-Ua
+Nr
 lF
 DD
 DD
@@ -6994,10 +7012,10 @@ yl
 zg
 zg
 EZ
-UX
 tj
-UX
-UX
+tj
+tj
+tj
 EZ
 ih
 zg
@@ -7065,7 +7083,7 @@ hx
 UX
 tj
 XF
-hx
+UX
 hx
 zg
 zg
@@ -7130,7 +7148,7 @@ Wl
 ku
 zg
 Hk
-Hk
+ea
 tj
 tj
 Hk
@@ -7170,7 +7188,7 @@ XY
 tx
 Ua
 Ua
-Ua
+Nr
 lF
 lF
 DD
@@ -7640,7 +7658,7 @@ tj
 tj
 tj
 tj
-Ua
+Nr
 lo
 tV
 Ap
@@ -7797,7 +7815,7 @@ lF
 aF
 iE
 iE
-op
+bd
 lF
 Kq
 Kq
@@ -8058,7 +8076,7 @@ XF
 tj
 Ua
 Ua
-Ua
+Nr
 lF
 lF
 lF
@@ -8395,7 +8413,7 @@ LF
 yU
 Ua
 Ua
-Ua
+Nr
 tj
 tj
 tj
