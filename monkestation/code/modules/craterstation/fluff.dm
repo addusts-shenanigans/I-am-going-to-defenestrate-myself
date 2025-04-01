@@ -138,10 +138,17 @@
 	icon_state = "swat"
 	inhand_icon_state = "swat_helmet"
 
-//cargo drone bay fluff hatch
+//fluff structures
 
 /obj/structure/fluff/launch_silo_hatch
 	name = "drone silo hatch"
 	desc = "A hatch for the launch silo of a planetary exploration drone bay."
 	icon = 'icons/obj/weapons/turrets.dmi'
 	icon_state = "turretCover"
+
+/obj/structure/fluff/broken_drone_fab
+	name = "broken drone shell dispenser"
+	desc = "A drone shell dispenser that has, for one reason or another, ceased to function."
+	density = TRUE
+	icon = 'icons/obj/machines/droneDispenser.dmi'
+	icon_state = "off"
