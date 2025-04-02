@@ -2418,7 +2418,7 @@
 "bfA" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mapping_helpers/burnt_floor,
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "bfC" = (
 /obj/structure/fence/door{
@@ -2592,7 +2592,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/mapping_helpers/burnt_floor,
 /obj/machinery/meter/layer4,
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "blC" = (
 /turf/open/floor/engine/vacuum,
@@ -3206,8 +3206,10 @@
 /turf/open/floor/iron/dark,
 /area/mine/laborcamp/security)
 "bBi" = (
-/obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/station,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "bBn" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
@@ -3302,7 +3304,7 @@
 /obj/machinery/atmospherics/pipe/multiz/dark/visible,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "bEj" = (
 /obj/machinery/light/directional/west,
@@ -10370,7 +10372,7 @@
 /obj/effect/mapping_helpers/airalarm/unlocked,
 /obj/effect/mapping_helpers/airalarm/engine_access,
 /obj/effect/mapping_helpers/burnt_floor,
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "eZz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -11992,7 +11994,7 @@
 /area/station/command/cc_dock)
 "fOI" = (
 /obj/machinery/atmospherics/pipe/multiz/scrubbers/hidden/layer4,
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "fPz" = (
 /obj/effect/landmark/start/head_of_security,
@@ -15108,8 +15110,7 @@
 "hni" = (
 /obj/structure/table,
 /obj/machinery/light/small/directional/west,
-/obj/effect/turf_decal/tile/brown/opposingcorners,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/station/commons/vacant_room/commissary)
 "hnq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16110,7 +16111,7 @@
 /obj/machinery/atmospherics/pipe/multiz/orange/visible/layer2{
 	dir = 4
 	},
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "hLy" = (
 /obj/effect/mapping_helpers/airlock/access/all/engineering/external,
@@ -21582,9 +21583,12 @@
 /turf/open/floor/engine,
 /area/station/hallway/secondary/entry/tram)
 "kpl" = (
-/obj/structure/lattice/catwalk,
 /obj/item/wallframe/light_fixture/small,
-/turf/open/openspace/icemoon/station,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating/snowed/icemoon,
 /area/station/maintenance/department/engine/abandoned_generator)
 "kpm" = (
 /obj/machinery/space_heater,
@@ -23127,7 +23131,7 @@
 /obj/machinery/atmospherics/components/tank/carbon_dioxide{
 	dir = 4
 	},
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "lck" = (
 /obj/effect/turf_decal/tile/red/half/contrasted,
@@ -24065,6 +24069,12 @@
 "lxR" = (
 /turf/closed/wall/r_wall,
 /area/station/engineering/storage/tech)
+"lxX" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plating,
+/area/station/maintenance/department/engine)
 "lyb" = (
 /turf/closed/wall/ice,
 /area/station/cargo/warehouse/abandoned)
@@ -26359,9 +26369,8 @@
 /turf/open/floor/engine,
 /area/station/hallway/secondary/exit/tram)
 "mJw" = (
-/obj/structure/ladder,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating/icemoon,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "mJC" = (
 /obj/machinery/light/small/directional/south,
@@ -34278,8 +34287,8 @@
 /area/mine/laborcamp/quarters)
 "qsl" = (
 /obj/item/shard/plasma,
-/obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/station,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating/snowed/icemoon,
 /area/station/maintenance/department/engine/abandoned_generator)
 "qsr" = (
 /obj/effect/spawner/random/engineering/atmospherics_portable,
@@ -36069,6 +36078,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/commons/fitness/recreation)
+"rgj" = (
+/obj/structure/girder,
+/obj/structure/barricade/wooden,
+/turf/open/floor/plating,
+/area/station/maintenance/department/engine)
 "rgr" = (
 /obj/effect/turf_decal/siding/wood/end,
 /turf/open/floor/carpet/blue,
@@ -38714,7 +38728,7 @@
 /obj/effect/mob_spawn/corpse/human/crater_constructor{
 	mob_name = "John Miller"
 	},
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "sry" = (
 /obj/effect/decal/cleanable/dirt,
@@ -42786,7 +42800,7 @@
 /obj/structure/cable/multilayer/multiz,
 /obj/effect/mapping_helpers/burnt_floor,
 /obj/machinery/meter,
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "upT" = (
 /obj/structure/cable,
@@ -50781,7 +50795,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer2,
 /obj/effect/mapping_helpers/burnt_floor,
 /obj/machinery/meter/layer2,
-/turf/open/floor/plating/icemoon,
+/turf/open/floor/plating,
 /area/station/maintenance/department/engine/abandoned_generator)
 "ymb" = (
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped,
@@ -75588,7 +75602,7 @@ sbZ
 jMb
 nAV
 uvs
-wiJ
+dtb
 wiJ
 wiJ
 cVN
@@ -95860,7 +95874,7 @@ irx
 irx
 irx
 irx
-xnZ
+lxX
 pps
 sme
 crr
@@ -96375,14 +96389,14 @@ sAQ
 xTM
 xTM
 xnZ
-xTM
+sAQ
 pps
 pps
 pps
 pps
 pps
 sAQ
-sAQ
+rgj
 sAQ
 xTM
 ccB
@@ -96632,7 +96646,7 @@ sAQ
 xTM
 xTM
 xnZ
-xTM
+sAQ
 xTM
 xTM
 xTM
@@ -96889,7 +96903,7 @@ mNQ
 xTM
 xTM
 xnZ
-xnZ
+lxX
 xnZ
 xnZ
 xnZ
@@ -97146,11 +97160,11 @@ sAQ
 xTM
 xTM
 xTM
-xTM
-xTM
-xTM
-xTM
-xTM
+sAQ
+sAQ
+mNQ
+sAQ
+sAQ
 xTM
 xTM
 xTM
@@ -97404,9 +97418,9 @@ sAQ
 sAQ
 sAQ
 sAQ
-sAQ
-sAQ
-sAQ
+xTM
+xTM
+xTM
 sAQ
 sAQ
 sAQ
@@ -97660,11 +97674,11 @@ crc
 crc
 crc
 crc
-crc
-crc
-crc
-crc
-crc
+sAQ
+xTM
+xTM
+xTM
+sAQ
 crc
 crc
 crc
@@ -97917,11 +97931,11 @@ crc
 crc
 crc
 crc
-crc
-crc
-crc
-crc
-crc
+sAQ
+sAQ
+xTM
+sAQ
+sAQ
 crc
 crc
 crc
@@ -98175,9 +98189,9 @@ crc
 crc
 crc
 crc
-crc
-crc
-crc
+sAQ
+sAQ
+sAQ
 crc
 crc
 crc
@@ -160884,7 +160898,7 @@ nAM
 irx
 pgA
 pps
-mJw
+tbM
 ylM
 srv
 mdi
@@ -161656,8 +161670,8 @@ irx
 pgA
 pps
 pps
-tic
-lrL
+alr
+mJw
 hQS
 hQS
 hQS
@@ -226421,7 +226435,7 @@ kYl
 ned
 pps
 laq
-bBi
+alr
 tdB
 tic
 eGS
