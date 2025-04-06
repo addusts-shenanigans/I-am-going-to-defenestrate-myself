@@ -29,16 +29,16 @@
 	id = ICEMOON_DEFAULT_ATMOS
 
 	base_gases = list(
-		/datum/gas/oxygen=5,
-		/datum/gas/nitrogen=10,
+		/datum/gas/oxygen=19, //MONKESTATION EDIT: Increases oxygen level by a fuckload so that craterstation is breathable, formerly 10
+		/datum/gas/nitrogen=1, //MONKESTATION EDIT: trades N2 for O2. formerly 10
 	)
 	normal_gases = list(
-		/datum/gas/oxygen=10,
+		/datum/gas/oxygen=15, //MONKESTATION EDIT: oxygen (used to be 10)
 		/datum/gas/nitrogen=10,
-		/datum/gas/carbon_dioxide=10,
+		/datum/gas/carbon_dioxide=15, //MONKESTATION EDIT: MORE CO2. i seriously hope this doesnt break anything. used to be 10
 	)
 	restricted_gases = list(
-		/datum/gas/plasma=0.1,
+		/datum/gas/plasma=0.5,
 		/datum/gas/water_vapor=0.1,
 		/datum/gas/miasma=1.2,
 	)
