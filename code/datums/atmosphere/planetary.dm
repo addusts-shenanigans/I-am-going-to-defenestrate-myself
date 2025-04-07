@@ -33,9 +33,9 @@
 		/datum/gas/nitrogen=1, //MONKESTATION EDIT: trades N2 for O2. formerly 10
 	)
 	normal_gases = list(
-		/datum/gas/oxygen=15, //MONKESTATION EDIT: oxygen (used to be 10)
-		/datum/gas/nitrogen=10,
-		/datum/gas/carbon_dioxide=15, //MONKESTATION EDIT: MORE CO2. i seriously hope this doesnt break anything. used to be 10
+		/datum/gas/oxygen=24, //MONKESTATION EDIT: oxygen (used to be 10)
+		/datum/gas/nitrogen=1, //used to be 10l, now 1. lmao. this is going to backfire horribly.
+		/datum/gas/carbon_dioxide=5, //MONKESTATION EDIT: 15 was too much, down to 5. used to be 10
 	)
 	restricted_gases = list(
 		/datum/gas/plasma=0.5,
