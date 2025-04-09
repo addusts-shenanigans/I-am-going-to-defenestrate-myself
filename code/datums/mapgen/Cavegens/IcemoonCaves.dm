@@ -1,5 +1,5 @@
 /datum/map_generator/cave_generator/icemoon
-	weighted_open_turf_types = list(/turf/open/misc/asteroid/snow/icemoon = 19, /turf/open/misc/ice/icemoon/mapgen = 1) //MONKESTATION EDIT: makes icemoon openspace only protect_station in mapgen. safety measure. if you expand a station area below it, it MIGHT set off the fixer thing, but i fucking hope not
+	weighted_open_turf_types = list(/turf/open/misc/asteroid/snow/icemoon = 19, /turf/open/misc/ice/icemoon= 1)
 	weighted_closed_turf_types = list(/turf/closed/mineral/random/snow = 1)
 
 
