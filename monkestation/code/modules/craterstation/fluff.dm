@@ -99,7 +99,7 @@
 	desc = "A frozen-up terminal that records manifests of shipping containers."
 	tguitheme = "nanotrasen"
 	icon_screen = "supply"
-	content = list("<center><b>CONTAINER MANIFEST: NO. 6</center></b> <BR> <BR> <b>ORIGIN:</b> JCSS LONDON MATERIALS RESERVE <BR> <b>CLASS:</b> STANDARD (20) KOSMOSLOGISTIKA <BR> <b>CONTENTS:</b> 200x STEEL SHEETS, 100x GLASS SHEETS, 50x REINFORCED GLASS, 50x PLLASTEEL, 2x PORTABLE STEW TANK <BR> <BR> <b>OWNER:</b> JOHNSON AND CO ARCHITECTURE <BR> <b>DESTINATION:</b> NTO. 13 'CRATER' CONSTRUCTION SITE")
+	content = list("<center><b>CONTAINER MANIFEST: NO. 6</center></b> <BR> <BR> <b>ORIGIN:</b> JCSS LONDON MATERIALS RESERVE <BR> <b>CLASS:</b> STANDARD (20) KOSMOSLOGISTIKA <BR> <b>CONTENTS:</b> 200x STEEL SHEETS, 100x GLASS SHEETS, 50x REINFORCED GLASS, 50x PLASTEEL, 2x SERVICE STEW TANK <BR> <BR> <b>OWNER:</b> JOHNSON AND CO ARCHITECTURE <BR> <b>DESTINATION:</b> NTO. 13 'CRATER' CONSTRUCTION SITE")
 	upperinfo = "Signed in as John Miller // Johnson & Co Architecture - ntOS 3.11"
 
 /obj/machinery/computer/terminal/craterstation/tram_maint
