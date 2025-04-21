@@ -118,7 +118,6 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "hz" = (
-/obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
@@ -128,6 +127,9 @@
 	pixel_y = -24
 	},
 /obj/machinery/vending/wallmed/directional/west,
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "hI" = (
@@ -184,6 +186,11 @@
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/shuttle/escape/brig)
+"ku" = (
+/obj/structure/flora/tree/jungle/small/style_random,
+/obj/machinery/light/directional/west,
+/turf/open/floor/grass,
+/area/shuttle/escape)
 "kz" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -280,6 +287,15 @@
 /obj/machinery/vending/wallmed/directional/east,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
+"mP" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/shuttle/escape)
 "nj" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -301,6 +317,9 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
 /obj/effect/turf_decal/siding/wood/end,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "pi" = (
@@ -371,6 +390,12 @@
 /obj/machinery/vending/wallmed/directional/north,
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"rM" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/shuttle/escape)
 "sb" = (
 /turf/template_noop,
 /area/template_noop)
@@ -411,6 +436,22 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"uw" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = 0
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/door/airlock/command/glass{
+	name = "Bridge"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/wood,
+/area/shuttle/escape)
 "vq" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -442,6 +483,14 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
+/area/shuttle/escape)
+"wp" = (
+/obj/structure/cable,
+/obj/structure/window/spawner/directional/west,
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/shuttle/escape)
 "wx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -574,9 +623,10 @@
 /turf/open/floor/iron/large,
 /area/shuttle/escape)
 "Dr" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
 /obj/structure/table/wood,
-/obj/machinery/recharger,
-/obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "DA" = (
@@ -611,10 +661,11 @@
 /turf/open/floor/iron/large,
 /area/shuttle/escape)
 "Fn" = (
-/obj/structure/table/wood,
-/obj/machinery/recharger,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 8
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
 	},
 /turf/open/floor/wood,
 /area/shuttle/escape)
@@ -698,6 +749,11 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/shuttle/escape)
+"Ix" = (
+/obj/structure/flora/bush/grassy/style_random,
+/obj/machinery/light/directional/east,
+/turf/open/floor/grass,
+/area/shuttle/escape)
 "IL" = (
 /obj/machinery/light/directional/east,
 /obj/item/surgery_tray/deployed,
@@ -755,6 +811,7 @@
 	dir = 6
 	},
 /obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/recharger,
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "Ku" = (
@@ -798,8 +855,24 @@
 /obj/structure/closet/emcloset/wall/directional/east,
 /turf/open/floor/iron/large,
 /area/shuttle/escape)
+"Mp" = (
+/obj/structure/cable,
+/obj/structure/window/spawner/directional/east,
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/shuttle/escape)
 "MY" = (
 /turf/open/floor/iron/large,
+/area/shuttle/escape)
+"NG" = (
+/obj/structure/railing/wood{
+	dir = 8
+	},
+/obj/structure/flora/bush/grassy/style_random,
+/obj/machinery/light/directional/east,
+/turf/open/floor/grass,
 /area/shuttle/escape)
 "Oc" = (
 /obj/machinery/computer/records/security{
@@ -824,6 +897,12 @@
 "OT" = (
 /obj/effect/turf_decal/box/corners,
 /turf/open/floor/iron/large,
+/area/shuttle/escape)
+"Pa" = (
+/obj/structure/table/wood,
+/obj/machinery/recharger,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
 /area/shuttle/escape)
 "PH" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -929,6 +1008,20 @@
 /obj/structure/cable,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron,
+/area/shuttle/escape)
+"UI" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/shuttle/escape)
+"UP" = (
+/obj/structure/railing/wood{
+	dir = 4
+	},
+/obj/structure/flora/bush/grassy/style_random,
+/obj/machinery/light/directional/west,
+/turf/open/floor/grass,
 /area/shuttle/escape)
 "VD" = (
 /obj/effect/turf_decal/box/corners{
@@ -1082,6 +1175,9 @@ sb
 sb
 sb
 sb
+sb
+sb
+sb
 Zv
 Kk
 eK
@@ -1106,6 +1202,9 @@ sb
 sb
 "}
 (2,1,1) = {"
+sb
+sb
+sb
 sb
 sb
 sb
@@ -1142,6 +1241,9 @@ sb
 sb
 sb
 sb
+sb
+sb
+sb
 VV
 If
 Hz
@@ -1170,6 +1272,9 @@ tb
 sb
 "}
 (4,1,1) = {"
+sb
+sb
+sb
 sb
 sb
 sb
@@ -1204,6 +1309,9 @@ sb
 (5,1,1) = {"
 sb
 lB
+lB
+eK
+eK
 eK
 eK
 Yq
@@ -1237,7 +1345,10 @@ sb
 lB
 lB
 zv
+UP
 zv
+eK
+ku
 Yq
 rz
 lN
@@ -1269,7 +1380,10 @@ tb
 lB
 GF
 WH
+rM
 YL
+eK
+zv
 Yq
 Yq
 Hz
@@ -1283,7 +1397,7 @@ cw
 Hw
 gJ
 gJ
-cn
+Mp
 lB
 cn
 aJ
@@ -1301,6 +1415,9 @@ pB
 lB
 FI
 Th
+Th
+Pa
+eK
 Fn
 hz
 pz
@@ -1315,7 +1432,7 @@ cw
 me
 lH
 lH
-cn
+wp
 lB
 gm
 aJ
@@ -1334,6 +1451,9 @@ lB
 Gk
 FD
 Th
+Ga
+uw
+mP
 Ga
 ot
 cn
@@ -1365,6 +1485,9 @@ pB
 lB
 zc
 Th
+Th
+Pa
+eK
 Dr
 Kl
 eK
@@ -1379,7 +1502,7 @@ cw
 Hw
 gJ
 gJ
-cn
+Mp
 lB
 Ru
 aJ
@@ -1397,7 +1520,10 @@ pB
 lB
 AC
 yq
+UI
 fZ
+eK
+iE
 pz
 pz
 pz
@@ -1411,7 +1537,7 @@ cw
 me
 lH
 lH
-cn
+wp
 lB
 cn
 aJ
@@ -1429,7 +1555,10 @@ pB
 lB
 lB
 iE
+NG
 iE
+eK
+Ix
 pz
 pC
 nZ
@@ -1460,6 +1589,9 @@ YZ
 (13,1,1) = {"
 sb
 lB
+lB
+eK
+eK
 eK
 eK
 pz
@@ -1493,6 +1625,9 @@ sb
 sb
 sb
 sb
+sb
+sb
+sb
 Zv
 pz
 eK
@@ -1522,6 +1657,9 @@ pB
 sb
 "}
 (15,1,1) = {"
+sb
+sb
+sb
 sb
 sb
 sb
@@ -1561,6 +1699,9 @@ sb
 sb
 sb
 sb
+sb
+sb
+sb
 Zv
 eK
 MY
@@ -1586,6 +1727,9 @@ sb
 sb
 "}
 (17,1,1) = {"
+sb
+sb
+sb
 sb
 sb
 sb
