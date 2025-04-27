@@ -91,7 +91,7 @@
 	icon_keyboard = "teleport_key"
 	icon_screen = "teleport"
 	tguitheme = "nanotrasen"
-	content = list("<center><b>BLUESPACE RELOCATOR CONTROLS</b></center> <BR> Teleporter disconnected. Last input shown below: <BR> <BR> SEND OFFSET 1 FLOOR UP 30 M WEST 30 M SOUTH")
+	content = list("<center><b>BLUESPACE RELOCATOR CONTROLS</b></center> <BR> Teleporter disconnected. Last input shown below: <BR> <BR> SEND OFFSET 2.5M UP 30 M WEST 30 M SOUTH")
 	upperinfo = "BLUESPACE TELEPORTATION DEVICE MK. 1 CONTROL SYSTEM"
 
 /obj/machinery/computer/terminal/craterstation/evac_dock_cargo
