@@ -119,7 +119,7 @@
 	desc = "A relatively regal stasis sleeper used by officers of the Syndicate coalition. This one bears the insignia (or lack thereof) of MI13."
 	you_are_text = "You are an MI13 officer, assigned to coordinate a Syndicate outpost in the frigid wastes of the icemoon."
 	flavour_text = "Oversee your outpost's operations, use your chameleon gas mask to impede Nanotrasen activity using radio intelligence, and coordinate your base's crew."
-	important_text = "You hold complete authority over the base and its crew, and are responsible for ensuring that inter-organisational conflict does not occur. You will be held responsible should the base be lost."
+	important_text = "Do not draw Nanotrasen's attention. You hold complete authority over the base and its crew, and are responsible for ensuring that inter-organisational conflict does not occur. You will be held responsible should the base be lost."
 	outfit = /datum/outfit/icemoon_syndicate/captain
 
 /datum/outfit/icemoon_syndicate/captain

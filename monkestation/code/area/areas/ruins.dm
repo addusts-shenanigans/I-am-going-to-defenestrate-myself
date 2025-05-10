@@ -62,6 +62,9 @@
 /area/ruin/icemoon_syndicate/research
 	name = "Syndicate Outpost Research"
 
+/area/ruin/icemoon_syndicate/research/xenobio
+	name = "Syndicate Outpost Xenobiology"
+
 /area/ruin/icemoon_syndicate/cargo
 	name = "Syndicate Outpost Cargo Office"
 
