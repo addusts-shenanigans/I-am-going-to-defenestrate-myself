@@ -182,10 +182,15 @@
 	description = "Just relax and take a dip, nothing will go wrong, I swear!"
 	suffix = "icemoon_underground_hotsprings.dmm"
 
-//monkey business start - craterstation ghostrole
+
+	id = "ice_oldstation"
+	suffix = "icemoon_underground_oldstation.dmm"
+	name = "Ancient Ice Moon Outpost"
+	description = "The crew of an outpost awaken one hundred years after a crisis. Awaking to a derelict outpost on the verge of collapse, and a hostile force of invading \
+	xenomorphs. Can the surviving crew overcome the odds and survive and rebuild, or will the cold embrace of the snow become their new home?"
+
 /datum/map_template/ruin/icemoon/underground/syndicate
 	name = "Icemoon Syndicate Research Outpost"
 	id = "syndicate_icemoon"
 	description = "A lightly fortified joint outpost manned by various Syndicate organisations, responsible for research and development of various advanced technologies."
 	suffix = "icemoon_underground_syndicate.dmm"
-//monkey business end
