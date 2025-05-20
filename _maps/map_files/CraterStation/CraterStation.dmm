@@ -2424,6 +2424,9 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
+"aTQ" = (
+/turf/closed/wall,
+/area/station/security/prison/garden)
 "aTU" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -14418,7 +14421,6 @@
 /obj/machinery/door/airlock/highsecurity{
 	name = "Test Chamber"
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -17539,8 +17541,12 @@
 /turf/open/floor/engine,
 /area/station/hallway/secondary/entry/tram)
 "gyR" = (
-/turf/closed/wall,
-/area/station/security/prison/garden)
+/obj/machinery/vending/sustenance{
+	onstation = 0
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron,
+/area/station/security/prison/mess)
 "gyV" = (
 /obj/structure/table,
 /obj/item/storage/bag/tray{
@@ -22302,6 +22308,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/pod/light,
 /area/station/science/explab)
 "iha" = (
@@ -26067,7 +26074,6 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/unres,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -37556,6 +37562,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/pod/light,
 /area/station/science/explab)
 "nNf" = (
@@ -40170,6 +40177,8 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/floor/pod/light,
 /area/station/science/explab)
 "oIH" = (
@@ -40817,6 +40826,7 @@
 	dir = 2
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/pod/light,
 /area/station/science/explab)
 "oVN" = (
@@ -43251,7 +43261,6 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/unres,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/duct,
 /turf/open/floor/plating,
@@ -60522,13 +60531,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/ai_monitored/turret_protected/ai)
-"wak" = (
-/obj/machinery/vending/sustenance{
-	onstation = 0
-	},
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron,
-/area/station/security/prison/mess)
 "wap" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -168144,13 +168146,13 @@ bqI
 bqI
 bqI
 oNL
-wak
 gyR
-gyR
+aTQ
+aTQ
 lqf
-gyR
-gyR
-gyR
+aTQ
+aTQ
+aTQ
 lmx
 lrp
 lrp
@@ -231868,7 +231870,7 @@ vmC
 pgA
 pgA
 pgA
-bFc
+rBU
 bFc
 bFc
 rzq
@@ -232126,7 +232128,7 @@ pgA
 pgA
 rBU
 bFc
-bOn
+bFc
 bOn
 bOn
 bOn
@@ -233154,10 +233156,10 @@ pgA
 pgA
 rBU
 bFc
-bOn
-bOn
-bOn
-bOn
+bFc
+bFc
+bFc
+bFc
 bFc
 rBU
 pPl
@@ -233410,12 +233412,12 @@ vmC
 pgA
 pgA
 rBU
-bFc
-bFc
-bFc
-bFc
-bFc
-bFc
+rBU
+rBU
+rBU
+rBU
+rBU
+aId
 rBU
 rBU
 rBU
@@ -248445,7 +248447,7 @@ yav
 yav
 yav
 yav
-yav
+pgA
 pgA
 pgA
 crJ
@@ -248698,11 +248700,11 @@ pgA
 pgA
 pgA
 pgA
+vmC
 pgA
-yav
-yav
-yav
-yav
+pgA
+pgA
+pgA
 xpA
 pgA
 pgA
@@ -248957,10 +248959,10 @@ pgA
 pgA
 pgA
 pgA
-yav
-yav
-yav
-yav
+vmC
+pgA
+pgA
+pgA
 yav
 pgA
 pgA
@@ -258657,7 +258659,7 @@ kMt
 dli
 nmh
 rZs
-pgA
+vmC
 pgA
 pgA
 yav
@@ -258917,7 +258919,7 @@ oUV
 pgA
 pgA
 pgA
-pgA
+uAv
 yav
 yav
 yav
@@ -259432,7 +259434,7 @@ pgA
 tnc
 pgA
 pgA
-pgA
+vmC
 yav
 yav
 yav
@@ -259686,7 +259688,7 @@ yav
 pgA
 dDT
 pgA
-pgA
+uAv
 pgA
 pgA
 pgA
@@ -259941,7 +259943,7 @@ yav
 yav
 yav
 pgA
-pgA
+vmC
 pgA
 pgA
 pgA
@@ -260459,7 +260461,7 @@ yav
 yav
 yav
 pgA
-pgA
+vmC
 yav
 yav
 yav
