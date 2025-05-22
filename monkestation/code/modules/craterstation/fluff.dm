@@ -9,7 +9,7 @@
 	default_raw_text = "One of the whiteouts knocked out the Mulebot sent to keep the worker's camp supplied. We were planning to move them to the bunkhouse inside the base anyway, and they have enough food to last until then, but someone should go and retrieve the bot before it breaks down for good."
 
 /obj/item/paper/crumpled/craterstation/medbay_stasis
-	default_raw_text = "Sorry we couldn't finish the stasis unit during fitting-out. We got the boards late since RnD still isn't up, and we're pretty strained out here."
+	default_raw_text = "Sorry we couldn't finish the stasis unit during fitting-out. We don't have all the boards yet."
 
 /obj/item/paper/crumpled/craterstation/remember_us
 	default_raw_text = "Everything's ready. Finally. Command crews, if you read this, remember our labours well. We fought to build this place against the cold, and we won."
