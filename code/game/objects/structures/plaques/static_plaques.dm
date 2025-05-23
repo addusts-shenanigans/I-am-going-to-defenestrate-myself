@@ -31,7 +31,7 @@
 	layer = BELOW_OPEN_DOOR_LAYER
 
 //Current stations
-// Crater Station: Mapping started 12/10/2024, commissioned [date of merge here]
+// Crater Station: Mapping started 12/10/2024, added [date of merge here] PR is Monkestation/Monkestation2.0 4986
 /obj/structure/plaque/static_plaque/golden/commission/crater
 	desc = "Spinward Sector Outpost SO-13\n'Crater' Sheltered Colony\nCommissioned 12/10/2564\n'Warmest in the Frost'"
 
@@ -54,6 +54,10 @@
 // North Star: added Apr 13, 2023 (#74371)
 /obj/structure/plaque/static_plaque/golden/commission/northstar
 	desc = "Spinward Sector Ship SS-13\n'North Star' Class Vessel\nCommissioned 13/04/2563\n'New Opportunities'"
+
+// Icebox Station: added May 13, 2020 (#51090)
+/obj/structure/plaque/static_plaque/golden/commission/icebox
+	desc = "Spinward Sector Station SS-13\n'Box' Class Outpost (Revision 2.2: 'Icebox')\nCommissioned 13/05/2560\n'Cold Reliable'"
 //Removed stations
 
 // Asteroidstation: added Oct 17, 2015 (169ab09f7b52254ee505e54cdea681fab287647b), removed Jun 19, 2016 (#18661)- 8 months, 2 days
@@ -105,10 +109,6 @@
 	desc = "Spinward Sector Station SS-01\n'Uterus' Class Outpost\nCommissioned 03/09/2551\nDecommissioned 21/06/2552\n'Humanity's Vanguard'"
 
 
-// Icebox Station: added May 13, 2020 (#51090), removed from Monke at a date yet to be determined but canonically decommissioned at the start of Crater construction
-//Also oh fuck we're out of numbers
-/obj/structure/plaque/static_plaque/golden/commission/icebox
-	desc = "Spinward Sector Station SS-14\n'Box' Class Outpost (Revision 2.2: 'Icebox')\nCommissioned 13/05/2560\nDecommissioned 19/06/2564\n'Cold Reliable'"
 
 // Other Stations
 
