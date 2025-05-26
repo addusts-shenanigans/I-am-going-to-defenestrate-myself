@@ -38,7 +38,7 @@
 		/datum/gas/carbon_dioxide=5, //MONKESTATION EDIT: 15 was too much, down to 5. used to be 10
 	)
 	restricted_gases = list(
-		/datum/gas/plasma=0.5,
+		/datum/gas/plasma=0.2, //used to be 0.5 i think, it kept setting things on fire whenever i wanted to weld and i really dont want that for crater
 		/datum/gas/water_vapor=0.1,
 		/datum/gas/miasma=1.2,
 	)
